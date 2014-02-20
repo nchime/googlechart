@@ -1,0 +1,68 @@
+﻿@charset "utf-8";
+/************************************************
+Cloud9 Publishing Group
+Author : Cloud9 (2013.09)
+commnet : guide
+*************************************************/
+
+/*common*/
+h1.gh1{padding:0 20px;color:#000;display:block;height:50px;line-height:60px;font-size:24px;color:#333;font-family:'맑은 고딕','Malgun Gothic','돋움',Dotum;font-weight:normal;border-bottom:1px solid #666;margin-bottom:20px}
+h2.gh2{padding:0 20px;color:#333;font-size:18px;font-weight:bold;margin-bottom:10px} 
+a{text-decoration:none;color:#333}
+a:hover{text-decoration:underline;color:#000}
+
+/*#region guide_snb */
+/* snb */
+.guide_snb {position:absolute;top:0;left:0;bottom:0;width:199px;font-size:12px;line-height:normal;border-right:1px solid #dcdcdc}
+.guide_snb ul {margin:0;padding:0;list-style:none;text-align:left;border:none;}
+.guide_snb li {position:relative;margin:0;vertical-align:top;*zoom:1;border-right:none;}
+.guide_snb li a {display:block;position:relative;padding:8px 10px;color:#666;text-decoration:none;background:#fff;border-bottom:1px solid #ececec;*zoom:1}
+.guide_snb li a span {cursor:pointer}
+.guide_snb li a .i {position:absolute;top:50%;left:100%;width:8px;height:8px;margin:-4px 0 0 -16px;color:#ccc;background:url(../img/guide/ico_sub.gif) no-repeat left top;text-indent:-2000px}
+.guide_snb li ul {padding:5px 0;background:#fff;display:none;border-top:none}
+.guide_snb li li {margin:0;border:none}
+.guide_snb li li a {padding:5px 10px;border:none;background:#fff}
+.guide_snb li li a span {color:#666}
+.guide_snb li.active {z-index:2;border:1px solid #dcdcdc;width:197px}
+.guide_snb li li.active {border:none}
+.guide_snb li.active a {border-bottom:1px solid #dcdcdc;color:#000;background:#ecf1f7}
+.guide_snb li.active .i {background-position:0 -44px}
+.guide_snb li.active li a {border:none}
+.guide_snb li.active ul {border-top:1px solid #f8f8fa}
+.guide_snb li.active ul a {background:#fff;border:none}
+.guide_snb li.active li.active a span {color:#356094;font-weight:bold}
+.guide_snb li li li { margin-left: 15px; }
+.guide_snb li.active li.active li a span { font-size: 11px; color:#666}
+.guide_snb li.active li.active li.active a span {}
+/*#endregion guide_snb */
+
+/* frame */
+frameset {border:none;border-collapse:collapse}
+#FrmContent {border:none;float:left}
+
+/*#region pub_list*/
+.pub_list {padding:0 20px 30px}
+.pub_list a {color:#000}
+.guideArea {padding:0 20px 30px}
+.guideArea h3 {margin-top:20px;color:#356094}
+/*#endregion pub_list */
+
+/*#region table */
+table,table th,table td{border:0;margin-bottom:20px}
+table{width:100%;border-bottom:1px solid #dcdcdc;font-size:12px;text-align:left;border-collapse:collapse}
+table caption{text-align:left;font-weight:bold}
+table tfoot{background-color:#f5f7f9;font-weight:bold}
+table th{padding:7px 5px 4px;border-top:1px solid #dcdcdc;border-right:1px solid #dcdcdc;border-left:1px solid #dcdcdc;background-color:#f7f7f7;color:#666;font-size:12px;font-weight:bold}
+table td{padding:3px 5px 2px 5px;border:1px solid #e5e5e5;color:#4c4c4c;word-break:break-all}
+table td.tl{text-align:left}
+table tbody tr.over {background:#ecf1f7}
+.dwUIGuideArea {position:absolute;top:0;right:0;bottom:0;right:0;padding:20px;overflow:auto}
+.guideTitle {display:block;height:50px;line-height:60px;padding-left:20px;font-size:24px;color:#333;font-family:Tahoma;font-weight:normal;border-bottom:1px solid #666;margin-bottom:20px}
+/*#endregion table */
+
+/*#region etc */
+.impt{font-size:11px; color:red; letter-spacing:-1px;}
+.scr{font-size:11px; color:blue; letter-spacing:-1px;}
+/*#endregion etc */
+
+

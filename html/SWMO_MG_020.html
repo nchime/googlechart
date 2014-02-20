@@ -1,0 +1,70 @@
+<?php include "$_SERVER[DOCUMENT_ROOT]/com/layout/layout_1.html"; ?>
+
+<div id="wrap">
+	<header>
+		<div class="top">
+			<a href="#" class="btnMenu jsNavSnb">목록</a>
+			<h1><a href="#">이메일</a></h1>
+			<a href="#" class="btnHome">홈</a>
+		</div>
+	</header>
+    <?php include "$_SERVER[DOCUMENT_ROOT]/com/layout/nav/m.html"; ?>
+	<div id="content" class="bg mail">
+        <div id="contWrap">
+            <div class="titWrap"><h2>메일보기</h2></div>
+			<div class="titBtnWrap">
+				<button type="button" class="btn">다시작성</button>
+				<button type="button" class="btn em">보내기</button>
+			</div>
+            <table border="1" summary="회의실 예약하기" class="tblType">
+                <caption>회의실 예약하기</caption>
+                <colgroup>
+                    <col style="width:130px">
+                    <col>
+                </colgroup>
+                <tbody>
+					<tr>
+						<td colspan="2" class="p0 pr35">
+							<div class="inputWrap pr17">
+								<input type="text" placeholder="이메일 제목을 입력하세요" />
+								<a href="#" class="btnDelete">삭제</a>
+							</div>
+						</td>
+					</tr>
+					<tr>
+                        <th>받는사람</th>
+						<td class="p0 pr35">
+							<div class="inputWrap pr17">
+								<input type="text" placeholder="수신 이메일을 입력하세요" />
+								<a href="#" class="btnDelete">삭제</a>
+							</div>
+						</td>
+                    </tr>
+					<tr>
+						<th>참조</th>
+						<td class="p0 pr35">
+							<div class="inputWrap pr17">
+								<input type="text" placeholder="수신 이메일을 입력하세요" />
+								<a href="#" class="btnDelete">삭제</a>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2" class="p0 pr18">
+							<div class="inputWrap">
+								<textarea cols="30" rows="10" placeholder="이메일 본문내용을 입력하세요" ></textarea>
+							</div>
+						</td>
+					</tr>
+
+                </tbody>
+            </table>
+			<div class="txtR mt20">
+				<a href="#" class="btn n"><span class="spr list"></span> 목록</a>
+			</div>
+
+        </div>
+	</div>
+</div>
+
+<?php include "$_SERVER[DOCUMENT_ROOT]/com/layout/layout_2.html"; ?>

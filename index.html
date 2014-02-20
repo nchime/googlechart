@@ -1,0 +1,348 @@
+<<<<<<< HEAD
+
+
+<HTML>
+<HEAD>
+<TITLE> ³×¿À¿¥ÅØ È¨ÆäÀÌÁö¿¡ ¿À½Å°ÍÀ» È¯¿µÇÕ´Ï´Ù.</TITLE>
+<LINK HREF="font.css" REL="StyleSheet" TYPE="text/css">
+
+<meta name="viewport" content="user-scalable=yes, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width" />
+
+<script language="JavaScript">
+<!-- javascript
+
+/*
+function notice_getcookie( name ){
+    var nameOfcookie = name + "=";
+    var x = 0;
+    while ( x <= document.cookie.length )
+    {
+            var y = (x+nameOfcookie.length);
+            if ( document.cookie.substring( x, y ) == nameOfcookie ) {
+                    if ( (endOfcookie=document.cookie.indexOf( ";", y )) == -1 )
+                            endOfcookie = document.cookie.length;
+                    return unescape( document.cookie.substring( y, endOfcookie ) );
+            }
+            x = document.cookie.indexOf( " ", x ) + 1;
+            if ( x == 0 )
+                    break;
+    }
+    return "";
+}
+if ( notice_getcookie( "Notice" ) != "done" )
+{
+        window.open('popup.html','1','width=414,height=500,top=0,left=0'); // ÆË¾÷À©µµ¿ìÀÇ °æ·Î¿Í Å©±â
+}
+*/ 
+// -->
+</script>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" topmargin=0 leftmargin=0 marginwidth=0 marginheight=0>
+
+
+<!-- Å¾¸Ş´º ½ÃÀÛ -->
+<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 WIDTH=100% class="doc">
+	<TR>
+		<TD background="images/back_top.gif"><iframe name="header" scrolling="NO" frameborder="NO" noresize src="header.html" width=980 height=99></iframe></TD>
+	</TR>
+</TABLE>
+<!-- Å¾¸Ş´º ³¡ -->
+
+<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 WIDTH=100% class="doc">
+	<TR>
+		<TD HEIGHT=5 BGCOLOR="#E7E7E7"></TD>
+	</TR>
+	<TR>
+		<TD background="images/back_m_left_1.gif">
+		<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 WIDTH=980 class="doc">
+			<TR>
+				<TD WIDTH=80 background="images/back_m_left.gif" align=center valign=bottom><IMG SRC="images/menu_left.gif" ALT="" WIDTH="60" BORDER=0 usemap="#left_menu"><br><br></TD>
+				<TD WIDTH=900><IMG SRC="images/m_img.gif" WIDTH="900" HEIGHT="328" BORDER=0 ALT=""></TD>
+			</TR>
+		</TABLE>
+		</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT=5 BGCOLOR="#E7E7E7"></TD>
+	</TR>
+	<TR>
+		<TD>
+		<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 WIDTH=980 class="doc">
+			<TR>
+				<br>
+
+				<TD WIDTH="79" valign="top"><br>
+				<!--
+					<a href="http://www.neomtech.com/solution/dc.html" onClick="javascript:{window.open('popup.html','1','width=414,height=570,top=0,left=0')};">
+					<img src="images/maindc.gif" border =0></a>&nbsp;
+					--> 
+				</TD>
+				<TD WIDTH="1" BGCOLOR="#E7E7E7"></TD>
+				<TD WIDTH="900">
+				
+				<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0>
+					<TR>
+						<TD HEIGHT=20></TD>
+					</TR>
+				</TABLE>
+				<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 WIDTH=900 class="doc">
+					<TR>
+
+						<TD WIDTH="634" align=center valign=top>
+
+						
+<link href="effect/flexslider.css" rel="stylesheet" type="text/css" />
+<link href="effect/fluid.css" rel="stylesheet" type="text/css">
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+<script src="effect/jquery.easing.1.3.js"></script>
+
+
+<script src="effect/sha1.js"></script>
+<script src="effect/codebird.js"></script>
+<script src="effect/userstorylabTw.js"></script>
+
+
+<script src="effect/jquery.smooth-scroll.js"></script>
+<script src="effect/jquery.flexslider.js"></script>
+<script src="effect/overthrow.js"></script>
+<script>
+    $(document).ready(function() {
+      //smooth-scroll
+      $('.nav-button').click(function(event) {
+        $("#header").addClass("header_fixed");
+        event.preventDefault();
+        var link = this;
+        $.smoothScroll({
+          scrollTarget: link.hash
+        });
+      });
+
+      $('button.scrollsomething').click(function() {
+        $.smoothScroll({
+          scrollElement: $('.scrollme'),
+          scrollTarget: '#findme'
+        });
+        return false;
+      });
+
+      //FlexSlider
+      $('.flexslider').flexslider({
+        animation: "slide",
+        start: function(slider){
+          $('body').removeClass('loading');
+        }
+      });
+
+      // show staff layer
+      $(".item a").click(function() {
+        $('<div class="overlay"></div>').appendTo('body');
+        $('#staffShow .slides>li').hide();
+        var lr_trg = $(this).parent().attr('class');
+        var lr_trg = '#' + lr_trg.substr((lr_trg.length-6));
+        $('#staffShow').fadeIn('fast', function () {
+            $(lr_trg).fadeIn('fast');
+        });
+        return false;
+      });
+
+      // hide staff layer
+      $('#staffShow .layer_close a, .overlay').live("click", function(){
+        $('#staffShow').hide();
+        $('.overlay').remove();
+        return false;
+      });
+
+      // nav fixed
+      var initial_offset_top = $("#header").offset().top;
+      $(window).scroll(function() {
+          if ((document.documentElement.scrollTop + document.body.scrollTop) > initial_offset_top) {
+              $("#header").addClass("header_fixed");
+          } else {
+              $("#header").removeClass("header_fixed");
+          }
+      });
+    });
+  </script>
+
+
+           <div id="serviceShow" class="flexslider">
+                <ul class="slides">
+                    <li>
+                        <article id="otgit">
+                            <div class="serv_img"><img src="images/qpal.png" alt=" " /></div>
+                            <div class="serv_txt">
+                                <div class="explain">
+                                    <p class="overthrow"> <span style="font-weight:bold">¼Ò¼È Áö½Ä°øÀ¯¼­ºñ½º</span> <br /><br />
+									»ç¿ëÀÚ ³×Æ®¿öÅ©¸¦ ¹ÙÅÁÀ¸·Î Áú¹®°ú ´äº¯À» ÅëÇØ ¼­·ÎÀÇ Áö½ÄÀ» °øÀ¯ÇÏ¸é¼­ ´õ ³ªÀº Áö½ÄÀ» Ã¢Á¶ÇÏ´Â ±Û·Î¹úÇü Social Knowledge Sharing Network ¼­ºñ½º ¡°QPal¡±¼­ºñ½º¸¦ °³¹ßÇÏ¿© ·±ÄªÇÏ¿´½À´Ï´Ù
+									</p>
+                                </div>
+                            <div class="clearfix"></div>
+                        </article>
+                    </li>
+                    <li>
+                        <article id="otgit">
+                            <div class="serv_img"><img src="images/super.png" alt=" " /></div>
+                            <div class="serv_txt">
+                                <div class="explain">
+                                    <p class="overthrow"> <span style="font-weight:bold">½´ÆÛ»çÀı´ÜK ¼­ºñ½º</span> <br /><br />
+									»ç¿ëÀÚ Âü¿©Çü App ¼­ºñ½ºÀÇ ÀÏÈ¯À¸·Î »çÀÌ¹ö ¿Ü±³ »çÀı´Ü ¹İÅ©(Vank) ¹× SKÇÃ·¡´Ö°ú °øµ¿À¸·Î ¡®ÇÑ±¹ ¹Ù·Î ¾Ë¸®±â¡¯¸¦ ¼öÇàÇÒ ¼ö ÀÖ´Â Android App ¼­ºñ½º¸¦ °³¹ßÇÏ¿© ·±ÄªÇÏ¿´½À´Ï´Ù.
+									</p>
+                                </div>
+                            <div class="clearfix"></div>
+                        </article>
+                    </li>
+                    <li>
+                        <article id="otgit">
+                            <div class="serv_img"><img src="images/neomtech_refresh.jpg" alt=" " /></div>
+                            <div class="serv_txt">
+                                <div class="explain">
+                                    <p class="overthrow"> <span style="font-weight:bold">³×¿À¿¥ÅØ ÀÓÁ÷¿ø ´ÜÇÕ µî»ê´ëÈ¸</span> <br /><br />
+									Ã¢¸³±â³äÀÏÀ» ¸ÂÀÌÇÏ¿© »çÀå´ÔÀ» ºñ·ÔÇÑ ÀÓÁ÷¿øµéÀÌ ´ÜÇÕ µî»êÀ» ´Ù³à¿Ô½À´Ï´Ù.   
+									</p>
+                                </div>
+                            <div class="clearfix"></div>
+                        </article>
+                    </li>
+
+                </ul>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+						
+						</TD>
+						<TD WIDTH="3"><IMG SRC="images/m_line_02.gif" WIDTH="3" HEIGHT="267" BORDER=0 ALT=""></TD>
+						<TD WIDTH="260" align=right>
+						<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 WIDTH="243">
+							<TR>
+								<TD><IMG SRC="images/m_ss_title.gif" WIDTH="243" HEIGHT="29" BORDER=0 ALT=""></TD>
+							</TR>
+							<TR>
+								<TD><a href="solution/mts.html"><IMG SRC="images/m_ss_01.gif" BORDER=0 ALT=""></a></TD>
+							</TR>
+							<TR>
+								<TD><a href="solution/study.html"><IMG SRC="images/m_ss_02.gif" BORDER=0 ALT=""></a></TD>
+							</TR>
+							<TR>
+								<TD><a href="solution/face.html"><IMG SRC="images/m_ss_03_1.gif" BORDER=0 ALT=""></TD>
+							</TR>
+							<TR>
+								<TD><IMG SRC="images/m_ss_line.gif" BORDER=0 ALT=""></TD>
+							</TR>
+
+							<TR>
+								<TD HEIGHT="10"></TD>
+							</TR>
+							<TR>
+								<TD><a href="service/bank.html"><IMG SRC="images/m_ss_04.gif" BORDER=0 ALT=""></a></TD>
+							</TR>
+							<TR>
+								<TD HEIGHT="5"></TD>
+							</TR>
+							<TR>
+								<TD><a href="service/giro.html"><IMG SRC="images/m_ss_05.gif" BORDER=0 ALT=""></a></TD>
+							</TR>
+						</TABLE>
+						
+						</TD>
+					</TR>
+				</TABLE>
+				
+				<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0>
+					<TR>
+						<TD HEIGHT=40></TD>
+					</TR>
+				</TABLE>
+				
+				</TD>
+			</TR>
+		</TABLE>
+
+		</TD>
+	</TR>
+</TABLE>
+
+<!-- ÇÏ´Ü¸Ş´º ½ÃÀÛ -->
+<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 WIDTH=100% class="doc"  bgcolor=#3b4d6f>
+	<TR>
+		<TD HEIGHT=1 BGCOLOR="#E7E7E7"></TD>
+	</TR>
+	<TR>
+		<TD><iframe name="footer" scrolling="NO" frameborder="NO" noresize src="footer_main.html" width=980 height=100%></iframe></TD>
+	</TR>
+</TABLE>
+<!-- ÇÏ´Ü¸Ş´º ³¡ -->
+<map name="left_menu" id="left_menu">
+  <area shape="rect" coords="2,6,58,23" href="partner/list.html" alt="ÆÄÆ®³Ê">
+</map>
+</BODY>
+</HTML>
+=======
+ï»¿<!-- <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>í•œêµ­ê°€ìŠ¤ê³µì‚¬</title>
+    <link rel="stylesheet" type="text/css" href="/css/base.css">
+    <link rel="stylesheet" type="text/css" href="/css/common.css" />
+</head>
+<frameset cols="200px, *" border="0">
+    <frame src="index_left.html" id="FrmSnbmenu" name="FrmSnbmenu" title="ê°€ì´ë“œ ë©”ë‰´ í”„ë ˆì„" frameborder="0" marginheight="0" marginwidth="0" />
+    <frame src="/publist/m.html" id="FrmContent" name="FrmContent" title="ì»¨í…ì¸  í”„ë ˆì„" frameborder="0" marginheight="0" marginwidth="0" />
+</frameset>
+</html>
+ -->
+ 
+ <script> 
+ 
+ 	location.href="./dist/SWMO_MG_002.html"; 
+ </script>
+>>>>>>> ëª¨ë°”ì¼ì›¹ í…ŒìŠ¤íŠ¸

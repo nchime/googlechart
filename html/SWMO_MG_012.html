@@ -1,0 +1,73 @@
+<?php include "$_SERVER[DOCUMENT_ROOT]/com/layout/layout_1.html"; ?>
+
+<div id="wrap">
+	<header>
+		<div class="top">
+			<a href="#" class="btnMenu jsNavSnb">목록</a>
+			<h1><a href="#">직원검색</a></h1>
+			<a href="#" class="btnHome">홈</a>
+		</div>
+	</header>
+    <?php include "$_SERVER[DOCUMENT_ROOT]/com/layout/nav/m.html"; ?>
+	<div id="content" class="bg">
+        <div id="contWrap">
+            <div class="titWrap"><h2>조직별검색</h2></div>
+            <div class="srchWrap">
+                <select style="width: 25%">
+                    <option>2013-01-20</option>
+                </select>
+                <span class="divider">-</span>
+                <select style="width: 25%">
+                    <option>2013-01-20</option>
+                </select>
+                <button type="button" class="btn">검색</button>
+                <button type="button" class="btn em">본인조회</button>
+            </div>
+            <div class="treeWrap">
+                <ul id="treeList">
+                    <li><a href="#">한국가스공사</a><span class="treeRContWrap"><a href="#none" class="btnPush">푸시</a><span class="divider">|</span><a href="#none" class="btnList">상세목록</a></span>
+                        <ul>
+                            <li>직속실 (사장) <span class="treeRContWrap"><a href="#none" class="btnPush">푸시</a><span class="divider">|</span><a href="#none" class="btnList">상세목록</a></span>
+                                <ul>
+                                    <li>비서팀 <span class="treeRContWrap"><a href="#none" class="btnPush">푸시</a><span class="divider">|</span><a href="#none" class="btnList">상세목록</a></span></li>
+                                </ul>
+                            </li>
+                            <li>비서팀 <span class="treeRContWrap"><a href="#none" class="btnPush">푸시</a><span class="divider">|</span><a href="#none" class="btnList">상세목록</a></span></li>
+                            <li>직속실 (관리부사장) <span class="treeRContWrap"><a href="#none" class="btnPush">푸시</a><span class="divider">|</span><a href="#none" class="btnList">상세목록</a></span>
+                                <ul>
+                                    <li>법무실 <span class="treeRContWrap"><a href="#none" class="btnPush">푸시</a><span class="divider">|</span><a href="#none" class="btnList">상세목록</a></span>
+                                        <ul>
+                                            <li>법무실 국내법무팀 <span class="treeRContWrap"><a href="#none" class="btnPush">푸시</a><span class="divider">|</span><a href="#none" class="btnList">상세목록</a></span></li>
+                                            <li>법무실 해외법무팀 <span class="treeRContWrap"><a href="#none" class="btnPush">푸시</a><span class="divider">|</span><a href="#none" class="btnList">상세목록</a></span></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#">한국가스공사</a> <span class="treeRContWrap"><a href="#none" class="btnPush">푸시</a><span class="divider">|</span><a href="#none" class="btnList">상세목록</a></span>
+                        <ul>
+                            <li>직속실 (사장) <span class="treeRContWrap"><a href="#none" class="btnPush">푸시</a><span class="divider">|</span><a href="#none" class="btnList">상세목록</a></span>
+                                <ul>
+                                    <li>비서팀 <span class="treeRContWrap"><a href="#none" class="btnPush">푸시</a><span class="divider">|</span><a href="#none" class="btnList">상세목록</a></span></li>
+                                </ul>
+                            </li>
+                            <li>직속실 (관리부사장) <span class="treeRContWrap"><a href="#none" class="btnPush">푸시</a><span class="divider">|</span><a href="#none" class="btnList">상세목록</a></span>
+                                <ul>
+                                    <li>법무실 <span class="treeRContWrap"><a href="#none" class="btnPush">푸시</a><span class="divider">|</span><a href="#none" class="btnList">상세목록</a></span>
+                                        <ul>
+                                            <li>법무실 국내법무팀 <span class="treeRContWrap"><a href="#none" class="btnPush">푸시</a><span class="divider">|</span><a href="#none" class="btnList">상세목록</a></span></li>
+                                            <li>법무실 해외법무팀 <span class="treeRContWrap"><a href="#none" class="btnPush">푸시</a><span class="divider">|</span><a href="#none" class="btnList">상세목록</a></span></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+	</div>
+</div>
+
+<?php include "$_SERVER[DOCUMENT_ROOT]/com/layout/layout_2.html"; ?>
