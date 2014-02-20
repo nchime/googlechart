@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html xml:lang="ko" lang="ko">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<title>일정관리</title>
+
+	<link rel="stylesheet" type="text/css" href="../css/base.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/animation.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/common.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/layout.css"/>
+
+	<script type="text/javascript" src="../js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="../js/modernizr.custom.min.js"></script>
+
+    <script type="text/javascript" src="../js/kg_ui.js"></script>
+</head>
+<body>
+
+
+<div id="wrap">
+	<header>
+		<div class="top">
+			<a href="#" class="btnMenu jsNavSnb">목록</a>
+			<h1><a href="#">일정관리</a></h1>
+			<a href="./SWMO_MG_002.html" class="btnHome">홈</a>
+		</div>
+	</header>
+   	
+		<!--  좌측 공통  슬라이딩 메뉴  -->
+		<script type="text/javascript" src="../com/common.html"> </script>
+
+    <div id="content" class="bg">
+        <div id="contWrap">
+            <div class="titWrap">
+                <h2>부서 일정</h2>
+            </div>
+
+			            <div class="calWrap">
+                <div class="calDate">
+                    <a href="#" class="spr btnPre">이전달</a>
+                    <strong>January 2014</strong>
+                    <a href="#" class="spr btnNext">다음달</a>
+                </div>
+                <table border="1" summary="2007년 9월 달력" class="tblCal">
+                    <thead>
+                        <tr>
+                            <th scope="col">SUN</th>
+                            <th scope="col">MON</th>
+                            <th scope="col">TUE</th>
+                            <th scope="col">WED</th>
+                            <th scope="col">THU</th>
+                            <th scope="col">FRI</th>
+                            <th scope="col">SAT</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>29</td>
+                            <td>30</td>
+                            <td>31</td>
+                            <td><a href="#">1</a></td>
+                            <td><a href="#">2</a></td>
+                            <td><a href="#">3</a></td>
+                            <td><a href="#">4</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">5</a></td>
+                            <td><a href="#">6</a></td>
+                            <td><a href="#">7</a></td>
+                            <td><a href="#">8</a></td>
+                            <td><a href="#">9</a></td>
+                            <td><a href="#">10</a></td>
+                            <td><a href="#">11</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">12</a></td>
+                            <td><a href="#">13</a></td>
+                            <td><a href="#">14</a></td>
+                            <td><a href="#">15</a></td>
+                            <td><a href="#">16</a></td>
+                            <td><a href="#">17</a></td>
+                            <td><a href="#">18</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#"><em>19</em></a></td>
+                            <td><a href="#">20</a></td>
+                            <td><a href="#">21</a></td>
+                            <td><a href="#">22</a></td>
+                            <td><a href="#">23</a></td>
+                            <td><a href="#">24</a></td>
+                            <td><a href="#">25</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">26</a></td>
+                            <td><a href="#">27</a></td>
+                            <td><a href="#">28</a></td>
+                            <td><a href="#">29</a></td>
+                            <td><a href="#" class="today">30</a></td>
+                            <td><a href="#">31</a></td>
+                            <td>1</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+			<ul class="schedule">
+				<li>
+					<a href="#" class="link">
+						<span class="day">6</span><span>경영간부회의</span><span class="time">(09:00~12:00)</span><span class="spr downArrow"></span>
+					</a>
+				</li>
+				<li>
+					<a href="#" class="link">
+						<span class="day">26</span><span>경영간부회의</span><span class="time">(09:00~12:00)</span><span class="spr downArrow"></span>
+					</a>
+				</li>
+			</ul>
+        </div>
+    </div>
+</div>
+
+<?php include "$_SERVER[DOCUMENT_ROOT]/com/layout/layout_2.html"; ?>

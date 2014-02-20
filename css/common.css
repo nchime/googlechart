@@ -9,7 +9,7 @@ commnet : common
 .spr {display:inline-block;background:url(../img/common/spr_com.png) no-repeat;background-size:500px auto;font-size:0}
 .spr.file{background-position:-185px 0;width:20px;height:20px;vertical-align:middle}
 .spr.list{background-position:-210px 0;width:12px;height:11px;vertical-align:middle}
-.spr.listWrite{background-position:-250px 0;width:20px;height:20px;vertical-align:middle}
+.spr.listWrite{background-position:-225px 0;width:20px;height:20px;vertical-align:middle}
 .spr.listDate{background-position:-250px 0;width:20px;height:20px;vertical-align:middle}
 .spr.listFile{background-position:-275px 0;width:20px;height:20px;vertical-align:middle}
 .spr.listFile2{background-position:-33px -70px;width:20px;height:20px;vertical-align:middle}
@@ -20,6 +20,36 @@ commnet : common
 .spr.srch{background-position:-9px -70px;width:14px;height:14px;vertical-align:middle}
 .spr.viewArrTop{background-position:-60px -70px;width:12px;height:6px;vertical-align:middle}
 .spr.titleArr{background-position:-180px -70px;width:5px;height:13px;vertical-align:middle;margin-bottom:4px}
+.spr.iconPeopleTel{background-position:-300px -25px;width:16px;height:16px;vertical-align:middle;}
+.spr.iconPeopleGroup{background-position:-340px -25px;width:16px;height:16px;vertical-align:middle;}
+.spr.iconPhone{background-position:-160px -70px;width:15px;height:15px;vertical-align:middle;}
+.spr.iconMessage{background-position:-140px -70px;width:15px;height:15px;vertical-align:middle;}
+.spr.downArrow{width:12px;height:6px;background-position:-68px -4px;}
+.spr.prev {width:6px;height:12px;background-position:-130px 0}
+.spr.next {width:6px;height:12px;background-position:-141px 0}
+html.wide .spr.prev {width:10px;height:21px;background-position:-152px 0}
+html.wide .spr.next {width:10px;height:21px;background-position:-167px 0}
+.on .spr.man {width:20px;height:20px;background-position:-225px -25px}
+.on .spr.companies {width:20px;height:20px;background-position:-245px -25px}
+.spr.man {width:20px;height:20px;background-position:-225px -45px}
+.spr.companies {width:20px;height:20px;background-position:-245px -45px}
+.spr.noHere {width:21px;height:21px;background-position:0 -100px}
+.spr.nowHere {width:21px;height:21px;background-position:-21px -100px}
+.spr.meeting {width:21px;height:21px;background-position:-42px -100px}
+.spr.inCompany {width:21px;height:21px;background-position:-63px -100px}
+.spr.arrowLeftG {width:7px;height:13px;background-position:-197px -70px;}
+.spr.arrowRightG {width:7px;height:13px;background-position:-214px -70px;}
+.jf .spr.food {width:46px;height:36px;background-position:-164px -41px;background-size:300px auto;}
+.jf .spr.leave {width:46px;height:36px;background-position:-210px -41px;background-size:300px auto;}
+.jf .spr.academy {width:46px;height:36px;background-position:-257px -41px;background-size:300px auto;}
+html.wide .jf .spr.food {width:75px;height:65px;background-position:-275px -65px;background-size:500px auto;}
+html.wide .jf .spr.leave {width:75px;height:65px;background-position:-350px -65px;background-size:500px auto;}
+html.wide .jf .spr.academy {width:75px;height:65px;background-position:-425px -65px;background-size:500px auto;}
+.spr.plus {width:5px;height:5px;background-position:-230px -75px;}
+.spr.iconMail{width:15px;height:10px;background-position:-360px -25px;}
+.spr.close {width:16px;height:16px;background-position:-248px -70px;}
+
+.iconbox span{background-color:#fff}
 
 /*contWrap*/
 #contWrap {padding:10px;overflow:hidden}
@@ -30,19 +60,19 @@ commnet : common
 #contWrap .titBtnWrap{position:absolute;top:13px;right:10px}
 #contWrap .titBtnWrap .btn {width:auto;padding:0 8px;height:35px;line-height:35px;font-size:13px}
 
-
 /*table*/
 .tblType,.tblType th,.tblType td{border:0;background: #ffffff;}
 .tblType{width:100%;border-left:1px solid #c6c6c6;border-right:1px solid #c6c6c6;border-bottom:1px solid #c6c6c6;table-layout:fixed;border-spacing:0;letter-spacing:-1px;font-size:13px}
 .tblType caption{display:none}
-.tblType th{height:39px;line-height:39px;padding:0 10px;border-top:1px solid #c6c6c6;border-right:1px solid #c6c6c6;background:#f1f1f3;color:#666;font-weight:bold;text-align:left;vertical-align:top}
+.tblType th{height:39px;line-height:39px;padding:0 10px;border-top:1px solid #c6c6c6;border-right:1px solid #c6c6c6;background:#f1f1f3;color:#666;font-weight:bold;text-align:left;vertical-align:middle}
 .tblType td{position:relative;height:39px;line-height:39px;padding:0 10px;border-top:1px solid #c6c6c6;vertical-align:top}
+.tblType .memo td textarea {height:78px;line-height:1.5;resize:vertical}
 
 .tblType_2,.tblType_2 th,.tblType_2 td{border:0}
 .tblType_2{width:100%;table-layout:fixed;border-spacing:0;letter-spacing:-1px;font-size:13px}
 .tblType_2 caption{display:none}
 .tblType_2 th{padding:5px;border-top:1px solid #c6c6c6;border-right:1px solid #c6c6c6;background:#d9dada;color:#666;font-size:15px;font-weight:bold;text-align:center;vertical-align:top}
-.tblType_2 td{position:relative;height:39px;line-height:39px;padding:0 5px;border-top:1px solid #c6c6c6;vertical-align:top;background:#f5f4f5}
+.tblType_2 td{position:relative;height:39px;line-height:39px;padding:0 5px;border-top:1px solid #c6c6c6;vertical-align:middle;background:#f5f4f5}
 .tblType_2 tbody th {background:#d9dada;vertical-align:middle}
 .tblType_2 tbody td:last-child {background:#fff;text-align:left;padding-right:90px}
 .tblType_2 tbody td .btn {position:absolute;top:8px;right:10px}
@@ -60,6 +90,17 @@ commnet : common
 .tblType.type2 th .viewInfo{font-weight:normal}
 .tblType.type2 th .viewInfo strong{font-weight:bold}
 
+.tblType.type3{border:0;border-bottom:1px solid #c6c6c6}
+.tblType.type3 thead th{border-right:0;background-color:#d9dada;padding:2px 7px;text-align:center}
+.tblType.type3 tbody td{text-align:right;}
+.tblType.type3 tbody td.bR{border-right:1px solid #c6c6c6}
+
+.tblType.type4 {border:0;border-bottom:1px solid #c6c6c6;letter-spacing:0;}
+.tblType.type4 tbody th.bR{border-right:1px solid #c6c6c6}
+.tblType.type4 tbody td{border-right:1px solid #c6c6c6;text-align:center;}
+.tblType.type4 .bNone{border-right:0 !important}
+
+
 .tblType_3,.tblType_3 th,.tblType_3 td{border:0}
 .tblType_3{width:100%;text-align:center;border-spacing:0;border-collapse:separate;border-top:1px solid #c6c6c6}
 .tblType_3 caption{display:none}
@@ -69,20 +110,57 @@ commnet : common
 .tblType_3 th:first-child, .tblType_3 td:first-child {border-left:none}
 .tblType_3 tr:nth-child(2n+1) td {background-color:#f5f4f5}
 
-table .btnDelete {position:absolute;top:10px;right:9px;display:block;width:18px;height:18px;background:url(../img/common/spr_com.png) no-repeat;background-size:500px auto;background-position:-107px top;font-size:0}
+.tblType_4{width:100%;border-bottom:1px solid #c6c6c6;table-layout:fixed;border-spacing:0;letter-spacing:-1px;font-size:13px;text-align:center}
+.tblType_4 th,.tblType_4 td{border-top:1px solid #c6c6c6;border-left:1px solid #c6c6c6;background: #ffffff;}
+.tblType_4 th:first-child,.tblType_4 td:first-child {border-left:0 none}
+.tblType_4 caption{display:none}
+.tblType_4 th{height:39px;line-height:39px;padding:0 10px;background:#f1f1f3;color:#666;}
+.tblType_4 td{position:relative;height:39px;line-height:39px;padding:0 10px;}
+
+table .btnDelete,table .unitTxt {position:absolute;display:block;}
+table .btnDelete {top:10px;right:9px;width:18px;height:18px;background:url(../img/common/spr_com.png) no-repeat;background-size:500px auto;background-position:-107px top;font-size:0}
+table .unitTxt {top:10px;right:9px;line-height:1.5;width:18px;text-align:center;}
+
+.foodmenu tbody td:last-child{padding:10px 40px 10px 10px;line-height:20px }
+.tdmenu td{padding:10px 20px 10px 10px;line-height:17px;height:auto}
+
+/*popup*/
+#popFade {display:none;background:url(../img/common/bg_lypop.png);position:fixed;left:0;top:0;width:100%;height:100%;z-index: 9990}
+.lyPopBack{}
+.lyPopWrap{display:none;float:left;position:fixed;top:50%;left: 50%;z-index: 9999;border:solid 1px #888; background:#fff; padding:0}
+.lyPopHeader {position:relative;height:51px;background-color:#229bd3;color:#fff;line-height:51px;font-size:21px;padding:0 30px;font-weight:bold;text-align:center}
+.lyPopCont {border:1px solid #c6c6c6;border-top:none;padding:30px 14px 24px;text-align:center}
+.lyPopCont.bgF {background:#f1f1f1}
+.jsPopClose { }
+.jsAxpClose {display:block;position:absolute;top:24px;right:24px;width:12px;height:12px;background:url('../img/common/spr_com.png') no-repeat -488px -59px;}
+.popWrap {background:url(../img/common/bg_lypop.png);position:fixed;top:0;left:0;width:100%;height:100%;overflow:visible;display:none;z-index:9998}
+.popCont{display:none;float:left;position:fixed;top:50%;left: 50%;z-index: 9999;position:relative;border:solid 1px #888; background:#fff; padding:0}
+.popHeader {height:60px;background-color:#9c9c9c;color:#f1f1f1;line-height:60px;font-size:18px;padding:0 30px;font-weight:bold}
+.popBody {padding:30px 30px 40px}
+.popWrap .popInner {display:block;position:relative;/*height:500px;overflow:auto;overflow-y:scroll;*/padding:0 !important;width:100%;}
+.closeBtn {position:absolute;right:12px;top:12px;display:block;padding:5px;}
 
 /*btn*/
 .btnWrap {text-align:center;margin:20px 0 0;}
 .btnWrap .btn:first-child {margin-left:0}
-.btn {display:inline-block;height:43px;width:145px;line-height:43px;color:#fff;background-color:#adadaf;text-align:center;font-size:16px;letter-spacing:-1px;font-weight:bold;margin:0;padding:0;border:0;margin-left:5px;}
+.btnWrap .btn:only-child {width:100%}
+.btn {display:inline-block;height:43px;width:145px;line-height:43px;color:#fff;background-color:#adadaf;text-align:center;font-size:16px;letter-spacing:-1px;font-weight:bold;margin:0;padding:0;border:0;margin-left:5px}
+a.btn:hover {text-decoration:none;color:#fff}
 .btn.em {background-color:#29384f}
 .btn.l {width:300px;margin:0}
 .btn.s {width:70px;height:25px;line-height:26px;background-color:#adadae;font-size:12px}
 .btn.n {background-color:#ebebeb;border:1px solid #c6c6c6;color:#5b5b5b;width:88px;height:38px;font-size:15px;line-height:36px;}
+.btn.longTxt {letter-spacing:-2px}
+.lyPopCont .btnWrap:first-child {margin-top:0}
+.lyPopCont .btn {width:130px;height:40px;line-height:40px}
 
 .btn2 {display:inline-block;height:43px;width:100%;line-height:43px;color:#fff;background-color:#29384f;text-align:center;font-size:16px;letter-spacing:-1px;font-weight:bold;margin:0;padding:0;border:0;margin-left:5px;}
 html.wide .btn2 {display:inline-block;height:43px;width:145px;line-height:43px;color:#fff;background-color:#29384f;text-align:center;font-size:16px;letter-spacing:-1px;font-weight:bold;margin:0;padding:0;border:0;margin-left:5px;}
 
+.btnArrow {width:19%;padding:0 8px;border:solid 1px #c6c6c6;height:35px;color:#707070}
+.btnArrow p{font-weight:bold;font-size:14px;letter-spacing:-1px;text-align:left;padding-top:10px}
+
+.selectBtn{width:49%;bottom:10px;vertical-align:middle;float:right}
 /*adverWrap*/
 .adverWrap {border:1px solid #c6c6c6;line-height:0;height:100px;overflow:hidden}
 .adverWrap img {width:100%;height:100px}
@@ -106,6 +184,9 @@ html.wide .mapWrap, html.wide .mapWrap img {height:400px}
 .quickLink li.m4 span {width:30px;height:31px;background-position:-100px -26px}
 .quickLink li.m5 span {width:34px;height:31px;background-position:-134px -26px}
 .quickLink li.m6 span {width:30px;height:31px;background-position:-172.5px -26px}
+.quickLink li.m11 span {width:32px;height:34px;background-position:0px -130px}
+.quickLink li.m12 span {width:32px;height:34px;background-position:-35px -130px}
+.quickLink li.m13 span {width:33px;height:34px;background-position:-70px -130px}
 
 html.wide .quickLink li {float:left;width:16.6%;margin:0 0 0 -1px}
 html.wide .quickLink li:first-child {margin-left:0}
@@ -149,7 +230,7 @@ html.wide .quickLink li span {}
 /*listReservation*/
 .reservationList {overflow:hidden;border-top:1px solid #c6c6c6;margin:0 -10px}
 .reservationList li {height:48px;line-height:48px;border-top:1px solid #fff;border-bottom:1px solid #c6c6c6;background-color:#e8e8e8;text-align:center}
-.reservationList li a {height:48px;line-height:48px;display:block;font-size:16px;position:relative}
+.reservationList li a {height:48px;line-height:48px;display:block;font-size:16px;font-weight:bold;position:relative}
 .reservationList li a em {font-style:normal;color:#229bd3}
 .reservationList li a span {position:absolute;top:20px;right:14px;display:block;width:12px;height:6px;background:url(../img/common/spr_com.png) no-repeat;background-size:500px auto;background-position:-68px -4px;}
 .reservationList li.on {height:auto}
@@ -243,18 +324,151 @@ html.wide .mailList li a span.spr{margin-bottom:2px}
 #treeList li a.treeCtrl span.btnOpen {background-position:-100px -70px}
 #treeList li a.treeCtrl span.btnClose {background-position:-80px -70px}
 
+/* 일정관리 */
+.schedule {margin:0 -10px}
+.schedule li {position:relative;border-top:1px solid #fff;border-bottom:1px solid #c6c6c6;background-color:#e8e8e8;}
+.schedule li a.link {display:block;padding:0 10px;font-size:16px;position:relative;line-height:48px;color:#5b5b5b;}
+.schedule li .day {display:inline-block;width:34px;margin-right:6px;color:#229bd3;font-weight:bold;text-align:center}
+.schedule li .day:after {float:right;display:inline-block;content:'일';font-size:12px;line-height:44px;padding-top:3px;font-weight:normal;color:#707070}
+.schedule li .spr {position:absolute;right:16px;top:20px;}
+
+/* 일정 상세조회 */
+.nopd #contWrap{padding:10px 0 !important;}
+.nopd .titWrap {padding:0 10px;}
+
+.tabWrap {height:450px;overflow-y:auto}
+.tab {position:relative;border-top:1px solid #c6c6c6;}
+.tab:after {display:block;content:'';width:100%;clear:both;}
+.tab li {float:left;width:50%;text-align:center;}
+.tab li.on {float:left; width:50%;text-align:center;}
+.tab a {display:block;font-weight:bold;line-height:46px;color:#b2b2b2;background-color:#fff;border-bottom:2px solid #c6c6c6;}
+.tab .on a {color:#229bd3;border-bottom:2px solid #229bd3;}
+.tab a:before {float:left;display:inline-block;margin-top:14px;margin-left:-1px;content:'';width:1px;height:16px;background-color:#c6c6c6;}
+.tab li .spr {margin-right:6px;vertical-align:-3px}
+.tabCont {position:absolute;width:100%;display:none;top:49px;left:0;margin-top:10px}
+.on .tabCont {display:block}
+.tabCont td .spr {margin-right:3px;vertical-align:middle}
+
 /* 직원검색 */
-.peopleList {overflow:hidden;border-top:1px solid #c6c6c6;margin:0 -10px}
+.peopleList {border-top:1px solid #c6c6c6;margin:0 -10px;}
 .peopleList li {line-height:23px;border-top:1px solid #fff;border-bottom:1px solid #c6c6c6;background-color:#e8e8e8;text-align:center}
-.peopleList li a {height:48px;display:block;font-size:16px;position:relative;padding:10px 20px 0 60px;line-height:20px}
+.peopleList li a {height:48px;display:block;font-size:16px;position:relative;padding:10px 20px 0 60px;line-height:20px;background-color:#e8e8e8;}
 .peopleList li .link div.spr.listArr {position:absolute;top:25px;right:14px;}
 .peopleList li .peopleInfo{text-align:left;}
 .peopleList li .link .peopleImg{position:absolute;top:9px;left:10px;}
-.peopleView {line-height:48px;border-top:1px solid #fff;border-bottom:1px solid #c6c6c6;background-color:#e8e8e8;text-align:center}
-.peopleView li{position:relative;float:left;width:50%}
-.peopleView li a{display:block}
-.peopleView li table{display:none;position:absolute;top:50px;left:0;}
-.peopleView li.on table{display:block;width:100%}
-.peopleView > ul:after {display:block;clear:both;content:''}
 
+.peopleTitle {border-top:1px solid #c6c6c6;border-bottom:1px solid #c6c6c6;background: #ffffff;padding:29px 20px 32px 125px;position:relative;line-height:20px;font-size:14px}
+.peopleTitle .photo{position:absolute;top:17px;left:13px;border:1px solid #c6c6c6;height:97px;width:75px}
+.peopleTitle span.th{font-weight:bold;width:50px;display:inline-block;}
+.peopleTitle .infoName{border-bottom:1px solid #c6c6c6;padding-bottom:5px;margin-bottom:5px;}
+.peopleTitle .infoName
+.peopleTitle .infoNum{}
+.peopleTitle .infoGroup{}
+
+.peopleView {overflow:hidden;line-height:28px;border-top:1px solid #fff;background-color:#e8e8e8;text-align:center;height:350px;position:relative;}
+.peopleView > ul {border-bottom:1px solid #c6c6c6;}
+.peopleView > ul > li{float:left;width:50%;border-bottom:2px solid #e8e6e3;background: #ffffff;}
+.peopleView > ul > li > a{display:block;height:25px;margin:10px 0;font-weight:bold;font-size:18px;color:#b2b2b2;letter-spacing:-1px;}
+.peopleView > ul > li.on > a {color:#229bd3}
+.peopleView > ul > li:first-child > a {border-right:1px solid #c6c6c6}
+.peopleView > ul > li.on {border-color:#33bbf9}
+.peopleView > ul > li.on .spr.iconPeopleTel{background-position:-280px -25px;}
+.peopleView > ul > li.on .spr.iconPeopleGroup{background-position:-320px -25px;}
+.peopleView .tblType{visibility:hidden;position:absolute;top:55px;left:0;width:100%;}
+.peopleView li.on table.tblType{visibility:visible;}
+.peopleView  td{text-align:left}
+.peopleView > ul:after {display:block;clear:both;content:''}
+.peopleView .tblType .iconWrap{position:absolute;top:0px;right:10px;}
+.peopleView .tblType .blankLine{color:#c6c6c6;padding:0px 5px;display:inline-block;}
+
+/* JF main */
+/* .leaveCount {position:relative;padding:15px 13px;border:1px solid #c6c6c6;border-bottom:0 none;background-color:#fff;font-weight:bold;letter-spacing:-1px}
+.leaveCount:after {display:block;clear:both;content:''}
+.leaveCount dl {float:left}
+.leaveCount dt {margin-bottom:10px;color:#5b5b5b}
+.leaveCount dd {display:inline-block;font-size:40px;line-height:1;color:#8d8d8d;}
+.leaveCount dd.save {color:#229bd3;}
+.leaveCount dd.save:after {content:'';display:inline-block;width:1px;height:23px;margin:0 8px 4px;background-color:#c6c6c6;}
+.leaveCount dd.all:after {content:'days';display:inline-block;font-size:14px;vertical-align:top}
+.leaveCount a {float:right;display:block;width:30%;min-width:86px;border:1px solid #e4e4e4;background-color:#f6f6f6;}
+.leaveCount a > span {display:block;padding:12px 10px 12px 13px;}
+.leaveCount a span .spr {float:right;margin-top:3px;} */
+.leaveCount {position:relative;padding:15px 13px;font-weight:bold;letter-spacing:-1px}
+.leaveCount dl:after {display:block;clear:both;content:''}
+.leaveCount dt, .leaveCount dd {display:inline-block;float:left;}
+.leaveCount dt {margin-right:25px;margin-top:10px;color:#5b5b5b}
+.leaveCount dd {font-size:40px;line-height:1;color:#8d8d8d;}
+.leaveCount .save {color:#229bd3;}
+.leaveCount .save:after {content:'';display:inline-block;width:1px;height:23px;margin:0 8px 4px;background-color:#c6c6c6;}
+.leaveCount .all:after {content:'days';display:inline-block;font-size:14px;vertical-align:top}
+
+
+.boardType1 {border:1px solid #c6c6c6;background-color:#fff}
+.boardType1 .boardTit {background:#2d4e6d;font-weight:bold;line-height:48px;color:#fff}
+.boardType1 .boardTit:after {display:block;clear:both;content:''}
+.boardType1 .boardTit .txt {float:left;padding-left:13px;font-size:16px}
+.boardType1 .boardTit .spr {margin:0 5px 3px 0px;}
+.boardType1 .boardTit a {float:right;padding:0 20px;font-size:13px;background-color:#1f3f5d;color:#fff}
+.boardType1 li {border-top:1px solid #c6c6c6;}
+.boardType1 li:nth-child(odd) {background-color:#f3f3f3;}
+.boardType1 li a {position:relative;display:block;padding:11px 100px 11px 13px;line-height:1.2;}
+.boardType1 li a time {position:absolute;top:13px;right:13px;}
+.boardType1 li a p {width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:14px;}
+.boardType1 li a time {font-size:13px;}
+
+html.wide .jf {position:relative}
+html.wide .jf .quickLink {position:absolute;right:10px;top:257px;width:175px;}
+html.wide .jf .quickLink li {width:100%;height:124px;text-align:right}
+html.wide .jf .quickLink li + li {margin:-1px 0 0}
+html.wide .jf .quickLink li a:after {content:'';display:inline-block;width:15px;}
+html.wide .jf .quickLink li .spr {margin:10px 15px 20px;}
+html.wide .leaveCount .save:after {margin:0 8px 10px 14px;}
+html.wide .leaveCount .all:after {font-size:27px;}
+html.wide .leaveCount {min-height:79px;padding:22px 24px 22px 13px;margin-top:10px;}
+html.wide .leaveCount,html.wide .boardType1 {margin-right:185px;}
+html.wide .leaveCount dt {margin-top:20px;font-size:30px;}
+html.wide .leaveCount dd {float:right;font-size:76px}
+html.wide .leaveCount dd span {display:inline-block}
+/* html.wide .leaveCount a {width:205px;margin-top:32px}
+html.wide .leaveCount a > span {padding:20px 10px 20px 13px} */
+html.wide .boardType1 .boardTit {height:50px;}
+html.wide .boardType1 li {height:38px;}
+
+/* 이용내역신청 */
+.usedHistory .divider {margin:0 -3px}
+.usedHistory .btn {margin:0; padding:0 5px;}
+.usedHistory select {max-width:120px;}
+html.wide .usedHistory {text-align:right}
+html.wide .usedHistory .btn {width:87px}
+
+/* kowic 메인 */
+.kowicMain:after {display:block;content:'';width:100%;clear:both;}
+.kowicMain .boxWrap{border:1px solid #c6c6c6;margin-top:10px;width:99.7%;}
+.kowicMain .boxWrap.type2{width:48.8%;display:inline-block;float:left}
+.kowicMain .boxWrap.type3{width:48.6%;display:inline-block;float:right}
+html.narrow .kowicMain .boxWrap.type2,html.narrow .kowicMain .boxWrap.type3{display:block;float:none;margin-left:0;width:100%}
+.kowicMain .boxWrap .title{height:48px;line-height:48px;color:#fff;background:#2d4e6d;font-size:18px;font-weight:bold;padding-left:10px}
+.kowicMain .boxWrap .box{padding:7px 10px;font-weight:bold;letter-spacing:-3px}
+.kowicMain .boxWrap .box .unit{font-size:15px;vertical-align:top;display:inline-block;margin-top:6px;margin-left:5px;font-weight:bold}
+.kowicMain .boxWrap .box .th{color:#707070;font-size:21px;vertical-align:top;margin-top:6px;display:inline-block;width:85px}
+.kowicMain .boxWrap .box .slice{font-weight:normal;font-size:21px;padding:0;margin:0;vertical-align:middle;}
+html.wide .kowicMain.quickLink li{width:33.3%;}
+.kowicMain.quickLink li{width:33.3%;margin-left:-1px;}
+.kowicMain.quickLink li:first-child{margin-left:0px;}
+
+
+/* tab */
+div.tc-panel {display:none;}
+div.tc-panel.tc-selected{display:block}
+
+
+/* kowic 가스예보 */
+.gasTab li{width:33%;float:left;margin-top:20px;line-height:47px;border-top:1px solid #c6c6c6;border-top:1px solid #c6c6c6;background: #ffffff;text-align:center;font-weight:bold}
+.gasTab li.gasTabBg{background:#fff url('../img/common/gasTabBg.gif') no-repeat center center;width:2px;display:inline-block;}
+.gasTab li a{padding-bottom:0px;width:100%;display:inline-block;border-bottom:3px solid #e8e6e3;}
+.gasTab li.tc-selected a{border-bottom:3px solid #229bd3;}
+.gasTab:after{content:'';clear:both;width:100%;display:block;}
+html.narrow .castStateWrap{overflow:auto;}
+html.narrow .castStateWrap .tc-panel{width:700px}
+.castTitle {display:block;border-top:1px solid #c6c6c6;background:#d9dada;line-height:39px;color:#5b5b5b;padding-left:10px;text-align:center}
 

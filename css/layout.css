@@ -27,28 +27,23 @@ html.wide header .btnMenu {display:none}
 header .btnHome {position:absolute;top:13.5px;right:13.5px;width:26px;height:21px;background:url(../img/common/spr_com.png) no-repeat -26px 0;background-size:500px auto;font-size:0}
 
 /*nav.snb*/
-nav.snb {display:block;width:276px;top:0;left:0;background:#e6e6e6;position:absolute;height:100%;z-index:10;overflow-y:auto;overflow-x:hidden;-webkit-overflow-scrolling: touch;/*-webkit-box-shadow:0 2px 6px #c5c5c5;box-shadow:0 2px 6px #c5c5c5;*/margin-top:47px;border-right:2px solid #b8b8b8}
+nav.snb {display:block;width:278px;top:0;left:0;background:#e6e6e6 url(../img/common/shadow_snb.png) repeat-y right 47px;background-size:2px 100%;position:absolute;height:100%;z-index:10;overflow-y:auto;overflow-x:hidden;-webkit-overflow-scrolling: touch;/*-webkit-box-shadow:0 2px 6px #c5c5c5;box-shadow:0 2px 6px #c5c5c5;*/}
 html.wide nav.snb {position:relative;float:left;top:0;z-index:30;margin-top:0}
+nav.snb .container {margin-top:47px;border-right:2px solid #b8b8b8}
+html.wide nav.snb .container {position:absolute;top:0;left:0;right:0;bottom:0;margin-top:0}
 html.narrow.snbOff nav.snb {display:none}
 html.narrow.snbView nav.snb {display:block}
+
 
 .userCtrlWrap {position:relative;height:89px;background-color:#29374f;border-bottom:1px solid #081e32}
 .userCtrlWrap .userInfo {position:relative;top:20px;left:15px;width:223px;height:50px}
 .userCtrlWrap .userInfo .userTitle {position:absolute;top:0;left:0;display:block;color:#fff;font-size:19px;font-weight:bold}
 .userCtrlWrap .userInfo .userTitle .userPos {display:block;font-size:16px;color:#3dbcf7;margin-top:7px}
 .userCtrlWrap .btnCls {display:block;width:17px;height:17px;position:absolute;top:14px;right:13px;overflow:hidden}
-.userCtrlWrap .btnCls span {display:block;width:17px;height:17px;background:url(../img/common/spr_com.png) no-repeat;background-size:500px auto;background-position:-85px top;font-size:0}
-html.wide .userCtrlWrap {margin-top:0}
-html.wide .userCtrlWrap .btnCls {display:none}
-
-.userData {height:66px;overflow:hidden;padding:10px 15px 0;line-height:28px;background:#fff}
-.userData dt {float:left;font-size:15px;font-weight:bold}
-.userData dd {text-align:right;font-weight:bold;font-size:13px}
-.userData dd strong {color:#229bd3;font-size:18px}
-
+.userCtrlWrap .btnCls span {display:block;width:17px;height:17px;background:url(../img/common/spr_com.png) no-repeat;background-size:500px auto;background-position:-85px top;font-size:0};font-size:15px;color:#5b5b5b}
 .menuList {background:#e6e6e6}
 .menuList > li {position:relative;overflow:hidden}
-.menuList > li a {position:relative;display:block;height:40px;border-top:1px solid #fff;border-bottom:1px solid #c6c6c6;line-height:40px;padding:0 15px;font-weight:bold;font-size:15px;color:#5b5b5b}
+.menuList > li a {position:relative;display:block;height:40px;border-top:1px solid #fff;border-bottom:1px solid #c6c6c6;line-height:40px;padding:0 15px;font-weight:bold}
 .menuList > li span {position:absolute;right:20px;top:14px;width:12px;height:12px;display:block;background:url(../img/common/spr_com.png) no-repeat -54px 0;background-size:500px auto;font-size:0;}
 .menuList > li a.active > span {background-position:-68px 0 !important}
 .menuList > li a.active {border-top:1px solid #081e32 !important;border-bottom:1px solid #284866 !important;color:#fff !important;font-size:15px !important;background-color:#3d5b77}
@@ -57,4 +52,10 @@ html.wide .userCtrlWrap .btnCls {display:none}
 .menuList > li li a {padding:0 15px 0 27px;}
 .menuList > li li a.on {color:#00c6ff;background:#3d5b77 url(../img/common/bg_snb_on.png) repeat-y right 0;background-size:4px 100%;}
 .menuList > li li a span {position:absolute;top:18px;left:15px;display:block;width:2px;height:2px;background-color:#afd3e4}
-.menuList > li li.on a span {background-color:#00c6ff}
+html.wide .userCtrlWrap {margin-top:0}
+html.wide .userCtrlWrap .btnCls {display:none}
+
+.userData {height:66px;overflow:hidden;padding:10px 15px 0;line-height:28px;background:#fff}
+.userData dt {float:left;font-size:15px;font-weight:bold}
+.userData dd {text-align:right;font-weight:bold;font-size:13px}
+.userData dd strong {color:#229bd3;font-size:18px}

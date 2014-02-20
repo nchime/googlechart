@@ -1,0 +1,178 @@
+<html xml:lang="ko" lang="ko">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<title><?=$fileName?></title>
+
+	<link rel="stylesheet" type="text/css" href="../css/base.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/animation.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/common.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/layout.css"/>
+
+	<script type="text/javascript" src="../js/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="../js/modernizr.custom.min.js"></script>
+
+	<script type="text/javascript" src="../js/kg_ui.js"></script>
+</head>
+<body>
+
+<!-- 메세지 보내기 선택 팝업 -->
+<div id="layerPop" class="lyPopWrap">
+    <div class="lyPopHeader">메세지 보내기 선택</div>
+    <div class="lyPopCont">
+		<div class="btnWrap">
+			<a href="#none" class="btn">SMS 보내기</a>
+			<a href="#none" class="btn longTxt">푸시메세지 보내기</a>
+		</div>
+    </div>
+	<a href="#" class="closeBtn jsPopClose"><span class="spr close"></span></a>
+</div>
+<!-- //메세지 보내기 선택 팝업 -->
+<div id="wrap">
+	<header>
+		<div class="top">
+			<a href="#" class="btnMenu jsNavSnb">목록</a>
+			<h1><a href="#">직원검색</a></h1>
+			<a href="#" class="btnHome">홈</a>
+		</div>
+	</header>
+  	
+		<!--  좌측 공통  슬라이딩 메뉴  -->
+		<script type="text/javascript" src="../com/common.html"> </script>
+
+	<div id="content" class="bg ">
+        <div id="contWrap">
+			<div class="titWrap">
+				<h2>직원 상세정보</h2>
+			</div>
+
+			<div class="peopleTitle mFull">
+				<div>
+					<div class="infoName"><span class="th">성명</span><strong class="fs16 point">홍길동</strong></div>
+					<div class="infoNum"><span class="th">성명</span>000000000</div>
+					<div class="infoGroup"><span class="th">소속</span>정보지원처 정보보안팀</div>
+				</div>
+				<div class="photo">
+					<img src="../img/temp/@person2.jpg" alt="홍길동"/>
+				</div>
+			</div>
+
+            <div class="peopleView jsTab mFull">
+                <ul>
+                    <li class="on"><a href="#none"><span class="spr iconPeopleTel"></span> 연락처</a>
+						<table border="1" summary="연락처" class="tblType">
+							<caption>연락처</caption>
+							<colgroup>
+								<col style="width:130px" />
+								<col />
+							</colgroup>
+							<tbody>
+								<tr>
+									<th>사내번호</th>
+									<td>
+										031-784-0000
+										<div class="iconWrap">
+											<a href="#" class="spr iconPhone "></a>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<th>자택번호</th>
+									<td>031-0000-0000
+										<div class="iconWrap">
+											<a href="#" class="spr iconPhone "></a>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<th>팩스번호</th>
+									<td>2회의실 / 18석</td>
+								</tr>
+								<tr>
+									<th>연락가능번호</th>
+									<td>2014-01-01 13:00
+										<div class="iconWrap">
+											<a href="" class="spr iconMessage jsbtnLyp" rel="layerPop"></a><!-- 메세지 보내기 선택 팝업 -->
+											<span class="blankLine"> | </span>
+											<a href="#" class="spr iconPhone"></a>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<th>휴대폰</th>
+									<td>2014-01-01 13:00
+										<div class="iconWrap">
+											<a href="#" class="spr iconPhone "></a>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<th>전자메일(사내)</th>
+									<td>skkim@kogas.or.kr
+										<div class="iconWrap">
+											<a href="#" class="spr iconMail"></a>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<th>전자메일(사외)</th>
+									<td>skkim@kogas.or.kr
+										<div class="iconWrap">
+											<a href="#" class="spr iconMail"></a>
+										</div>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+                    </li>
+                    <li><a href="#none"><span class="spr iconPeopleGroup"></span> 소속정보</a>
+						<table border="1" summary="소속정보" class="tblType">
+							<caption>소속정보</caption>
+							<colgroup>
+								<col style="width:130px">
+								<col>
+							</colgroup>
+							<tbody>
+							<tr>
+								<th>직급</th>
+								<td>3급병</td>
+							</tr>
+							<tr>
+								<th>직위</th>
+								<td>차장</td>
+							</tr>
+							<tr>
+								<th>직책</th>
+								<td>팀원</td>
+							</tr>
+							<tr>
+								<th>포지션</th>
+								<td>팀원</td>
+							</tr>
+							<tr>
+								<th>겸직위</th>
+								<td>-</td>
+							</tr>
+							<tr>
+								<th>소직무</th>
+								<td>-</td>
+							</tr>
+							<tr>
+								<th>근무상태</th>
+								<td>근무중</td>
+							</tr>
+							</tbody>
+						</table>
+                    </li>
+                </ul>
+
+            </div>
+
+
+        </div>
+	</div>
+</div>
+
+</body>
+</html>

@@ -8,42 +8,16 @@
 			<a href="#" class="btnHome">홈</a>
 		</div>
 	</header>
-	<nav class="snb">
-		<div class="userCtrlWrap">
-			<div class="userInfo">
-				<span class="userTitle">홍길동<span class="userPos">정보기획팀</span></span>
-			</div>
-			<a href="#none" class="btnCls jsNavSnbClose"><span>닫기</span></a>
-		</div>
-		<dl class="userData">
-			<dt>지식포인트</dt>
-			<dd><strong>100</strong>점</dd>
-			<dt>연차(유급)</dt>
-			<dd><strong>5.0/6.0</strong>일</dd>
-		</dl>
-		<ul class="menuList">
-			<li><a href="#none">사무환경지원<span></span></a>
-				<ul>
-					<li><a href="#none">회의실예약</a></li>
-					<li><a href="#none">당직조회</a></li>
-					<li><a href="#none">차량신청</a></li>
-				</ul>
-			</li>
-			<li><a href="#none">전자게시판<span></span></a></li>
-			<li><a href="#none">직원검색<span></span></a></li>
-			<li><a href="#none">이메일<span></span></a></li>
-			<li><a href="#none">일정<span></span></a></li>
-			<li><a href="#none">임원 재실관리<span></span></a></li>
-			<li><a href="#none">Kogas 길안내<span></span></a></li>
-			<li><a href="#none">천연가스 용어사전<span></span></a></li>
-		</ul>
-	</nav>
+    <?php include "$_SERVER[DOCUMENT_ROOT]/com/layout/nav/m.html"; ?>
 	<div id="content" class="bg">
 		<div id="contWrap">
 			<div class="titWrap">
 				<h2>자사 검색
-					<select style="bottom:10px;width:49%" class="vertical_m fr">
+					<select class="selectBtn">
 					<option>본사</option>
+					<option>인천기지본부</option>
+					<option>통영기지본부</option>
+					<option>평택기지본부</option>
 					</select>
 				</h2>
 			</div>
@@ -60,7 +34,7 @@
 							<th>명칭</th>
 							<td>본사</td>
 						</tr>
-						<tr>
+						<tr class="tdmenu">
 							<th>주소</th>
 							<td>경기 성남시 분당구 돌마로 171</td>
 						</tr>
@@ -72,10 +46,10 @@
 							<th>FAX</th>
 							<td>031-710-0117 ~ 8</td>
 						</tr>
-						<tr>
+						<tr class="tdmenu">
 							<th>대중교통</th>
 							<td>
-								<p class="lh17 ptb10">
+								<p>
 								지하철 : 분당선 미금역 2,3번 출구<br> (도보로 15분 소요)<br>
 								시내버스 : 700, 77-1, 33-1, 116, 2-1, 720, 51 등<br>
 								좌석버스 : 1001, 1005-1, 2002, 2002-1, 9000, 9001, 9401, 9403, 9404, 9407, 9408, 9414, 303 등

@@ -1,0 +1,93 @@
+<?php include "$_SERVER[DOCUMENT_ROOT]/com/layout/layout_1.html"; ?>
+
+
+
+<div id="wrap">
+	<header>
+		<div class="top">
+			<a href="#" class="btnMenu jsNavSnb">목록</a>
+			<h1><a href="#">정선연수원</a></h1>
+			<a href="#" class="btnHome">홈</a>
+		</div>
+	</header>
+    <?php include "$_SERVER[DOCUMENT_ROOT]/com/layout/nav/j.html"; ?>
+	<div id="content" class="bg">
+		<div id="contWrap">
+			<div class="titWrap">
+				<h2>이용신청 내역</h2>
+			</div>
+			<div class="srchWrap usedHistory">
+                <select style="width: 27.5%">
+                    <option>2013-01-20</option>
+                </select>
+                <span class="divider">-</span>
+                <select style="width: 27.5%">
+                    <option>2013-01-20</option>
+                </select>
+                <button type="button" class="btn">검색</button>
+                <button type="button" class="btn em">연수원신청</button>
+            </div>
+			<div class="">
+				<table border="1" class="tblType type2">
+					<caption>차량신청</caption>
+					<colgroup>
+						<col style="width:88px">
+						<col style="width:55px">
+						<col>
+					</colgroup>
+					<thead>
+						<tr>
+							<th>신청일</th>
+							<th>구분</th>
+							<th>신청내역</th>
+						</tr>
+					</thead>
+					<tbody>
+						<!--  -->
+						<tr>
+							<th class="date" rowspan="4">2014.01.24</th>
+							<th>상태</th>
+							<td>접수</td>
+						</tr>
+						<tr>
+							<th>번호</th>
+							<td>12777777</td>
+						</tr>
+						<tr>
+							<th>기간</th>
+							<td>2014.01.12 13:00 ~ 2014.02.12 13:00</td>
+						</tr>
+						<tr>
+							<th>유형</th>
+							<td>단체</td>
+						</tr>
+						<!--  -->
+						<!--  -->
+						<tr>
+							<th class="date" rowspan="4">2014.01.24</th>
+							<th>상태</th>
+							<td>접수</td>
+						</tr>
+						<tr>
+							<th>번호</th>
+							<td>12777777</td>
+						</tr>
+						<tr>
+							<th>기간</th>
+							<td>2014.01.12 13:00 ~ 2014.02.12 13:00</td>
+						</tr>
+						<tr>
+							<th>유형</th>
+							<td>단체</td>
+						</tr>
+						<!--  -->
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+<?php include "$_SERVER[DOCUMENT_ROOT]/com/layout/layout_2.html"; ?>

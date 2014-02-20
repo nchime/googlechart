@@ -1,5 +1,13 @@
 <?php include "$_SERVER[DOCUMENT_ROOT]/com/layout/layout_1.html"; ?>
-
+<div id="layerPop" class="lyPopWrap">
+    <div class="lyPopHeader">등록 실패</div>
+    <div class="lyPopCont">
+        회의실 시작시간은 오늘날짜 이후로<br>설정하셔야 합니다.
+		<div class="btnWrap">
+			<a href="#none" class="btn em">확인</a>
+		</div>
+    </div>
+</div>
 <div id="wrap">
 	<header>
 		<div class="top">
@@ -37,7 +45,14 @@
                     </tr>
                     <tr>
                         <th>회의실 시작시간</th>
-                        <td>2014-01-01 13:00</td>
+                        <td class="p0">
+                            <select style="width:60%" class="type1">
+                                <option>2013-01-20</option>
+                            </select>
+                            <select style="width:40%" class="type1">
+                                <option>12:00</option>
+                            </select>
+                        </td>
                     </tr>
                     <tr>
                         <th>회의실 종료시간</th>

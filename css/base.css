@@ -37,8 +37,10 @@ input::-webkit-input-placeholder {font-size:14px;vertical-align:middle}
 .block {display:block}
 .mt20 {margin-top:20px !important}
 .mr5 {margin-right:5px !important}
+.mr15 {margin-right:15px !important}
 .mr18 {margin-right:18px !important}
 .mb3{margin-bottom:3px !important}
+.mb10 {margin-bottom:10px !important}
 .mbt5{margin-bottom:5px;margin-top:5px !important}
 .ml3{margin-left:3px !important}
 .ml40{margin-left:40px !important}
@@ -52,13 +54,21 @@ input::-webkit-input-placeholder {font-size:14px;vertical-align:middle}
 .pr35 {padding-right:35px !important}
 .pr45 {padding-right:45px !important}
 .pl78{padding-left:78px !important}
-.txtR{text-align:right}
+.txtL{text-align:left !important}
+.txtC{text-align:center !important}
+.txtR{text-align:right !important}
 .ellipsis {overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
 .vertical_m {vertical-align:middle !important;}
-.fs16{font-size:16px !important}
 .fs13{font-size:13px !important}
+.fs16{font-size:16px !important}
+.fs30{font-size:30px !important}
+.fs35{font-size:35px !important}
 .lh17{line-height:17px !important}
 html.narrow .mFull{margin:0 -10px !important}
+html.narrow .btnFull{width:100%}
+.point{color:#229bd3}
+.tbpace{letter-spacing:0 !important}
+
 
 
 

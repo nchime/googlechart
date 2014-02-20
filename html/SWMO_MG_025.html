@@ -1,0 +1,58 @@
+<?php include "$_SERVER[DOCUMENT_ROOT]/com/layout/layout_1.html"; ?>
+
+<div id="wrap">
+	<header>
+		<div class="top">
+			<a href="#" class="btnMenu jsNavSnb">목록</a>
+			<h1><a href="#">사무환경 지원</a></h1>
+			<a href="#" class="btnHome">홈</a>
+		</div>
+	</header>
+    <?php include "$_SERVER[DOCUMENT_ROOT]/com/layout/nav/m.html"; ?>
+	<div id="content" class="bg mail">
+        <div id="contWrap">
+            <div class="titWrap"><h2>푸시메시지 보내기</h2></div>
+
+            <table border="1" summary="푸시메시지 보내기" class="tblType type2">
+                <caption>푸시메시지 보내기</caption>
+                <colgroup>
+                    <col style="width:130px">
+                    <col>
+                </colgroup>
+                <tbody>
+					<tr>
+                        <th class="txtC">받는사람</th>
+						<td class="p0">
+							<div class="inputWrap pr17">
+								<input type="text" placeholder="수신 이메일을 입력하세요" />
+							</div>
+						</td>
+                    </tr>
+					<tr>
+						<th class="txtC">제목</th>
+						<td class="p0">
+							<div class="inputWrap pr17">
+								<input type="text" placeholder="제목을 입력하세요" />
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2" class="p0 pr18">
+							<div class="inputWrap">
+								<textarea cols="30" rows="10" placeholder="발송할 메세지를 입력하세요" ></textarea>
+							</div>
+						</td>
+					</tr>
+
+                </tbody>
+            </table>
+			<div class="btnWrap">
+				<a href="#none" class="btn">취소</a>
+				<a href="#none" class="btn em">발송</a>
+			</div>
+
+        </div>
+	</div>
+</div>
+
+<?php include "$_SERVER[DOCUMENT_ROOT]/com/layout/layout_2.html"; ?>
