@@ -8,20 +8,23 @@ commnet : layout
 /* html, body */
 html, body {height:100%;overflow:hidden;-webkit-user-select:none;-webkit-touch-callout:none}
 
-/* wrap */
+/* com */
 #wrap {background:#fff;height:100%;overflow:hidden;overflow-y:auto !important}
-
+html.narrow.snbView #wrap {overflow-y:hidden !important}
 #content {z-index:20;width:100%;position:relative;overflow:hidden;background:#fff}
-#content {transition:transform .2s ease-out;-webkit-transition:-webkit-transform .2s ease-out;}
+#content {transition:transform .1s ease-out;-webkit-transition:-webkit-transform .1s ease-out;}
 html.snbView #content {transform:translate3d(278px, 0px, 0);-webkit-transform:translate3d(278px, 0px, 0)}
 html.wide #content {position:relative}
 #content.bg {background-color:#e8e8e8}
+#content:after {clear:both;content:'';display:block}
+
 
 /* header */
 header {min-width:320px;width:100%}
 header > .top {height:47px;background:#229bd3;text-align:center;color:#fff;line-height:47px;position:relative;z-index:20}
 header > .top a {color:#fff;}
 header h1 {font-weight:bold;font-size:18px}
+header h1 a span {margin-right:2px}
 header .btnMenu {position:absolute;top:16px;left:15px;width:21px;height:15px;background:url(../img/common/spr_com.png) no-repeat 0 0;background-size:500px auto;font-size:0}
 html.wide header .btnMenu {display:none}
 header .btnHome {position:absolute;top:13.5px;right:13.5px;width:26px;height:21px;background:url(../img/common/spr_com.png) no-repeat -26px 0;background-size:500px auto;font-size:0}
@@ -34,13 +37,18 @@ html.wide nav.snb .container {position:absolute;top:0;left:0;right:0;bottom:0;ma
 html.narrow.snbOff nav.snb {display:none}
 html.narrow.snbView nav.snb {display:block}
 
+/*footer*/
+#footer{display:block;height:45px;text-align:center;background:#f3f3f3;padding:10px 0 7px 0;z-index:100;transition:transform .1s ease-out;-webkit-transition:-webkit-transform .1s ease-out;}
+#footer .footerlogo{background:url(../img/common/spr_com.png) no-repeat 0 -175px;background-size:500px auto;width:88px;height:20px;display:inline-block}
+#footer .copyright{font-size:9px;color:#aaa}
+html.snbView #footer {transform:translate3d(278px, 0px, 0);-webkit-transform:translate3d(278px, 0px, 0)}
 
 .userCtrlWrap {position:relative;height:89px;background-color:#29374f;border-bottom:1px solid #081e32}
 .userCtrlWrap .userInfo {position:relative;top:20px;left:15px;width:223px;height:50px}
 .userCtrlWrap .userInfo .userTitle {position:absolute;top:0;left:0;display:block;color:#fff;font-size:19px;font-weight:bold}
 .userCtrlWrap .userInfo .userTitle .userPos {display:block;font-size:16px;color:#3dbcf7;margin-top:7px}
 .userCtrlWrap .btnCls {display:block;width:17px;height:17px;position:absolute;top:14px;right:13px;overflow:hidden}
-.userCtrlWrap .btnCls span {display:block;width:17px;height:17px;background:url(../img/common/spr_com.png) no-repeat;background-size:500px auto;background-position:-85px top;font-size:0};font-size:15px;color:#5b5b5b}
+.userCtrlWrap .btnCls span {display:block;width:17px;height:17px;background:url(../img/common/spr_com.png) no-repeat;background-size:500px auto;background-position:-85px top;font-size:0}
 .menuList {background:#e6e6e6}
 .menuList > li {position:relative;overflow:hidden}
 .menuList > li a {position:relative;display:block;height:40px;border-top:1px solid #fff;border-bottom:1px solid #c6c6c6;line-height:40px;padding:0 15px;font-weight:bold}
@@ -56,6 +64,7 @@ html.wide .userCtrlWrap {margin-top:0}
 html.wide .userCtrlWrap .btnCls {display:none}
 
 .userData {height:66px;overflow:hidden;padding:10px 15px 0;line-height:28px;background:#fff}
+.userData.mg {height:102px}
 .userData dt {float:left;font-size:15px;font-weight:bold}
 .userData dd {text-align:right;font-weight:bold;font-size:13px}
 .userData dd strong {color:#229bd3;font-size:18px}

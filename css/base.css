@@ -21,12 +21,16 @@ hr{display:none}
 input,select,button{vertical-align:middle}
 
 textarea {border:solid 1px #dcdcdc;border-radius:0;box-shadow:none;padding:8px;font-size:14px;-webkit-appearance:none;}
+html.wide textarea{font-size:21px}
 input[type=text], input[type=password], input[type=email], input[type=phone], input[type=date] {border:solid 1px #dcdcdc;border-radius:0;box-shadow:none;font-size:14px;-webkit-appearance:none;padding-left:8px;padding-right:8px;line-height:28px;height:26px;min-height:26px;}
+html.wide input[type=text], input[type=password], input[type=email], input[type=phone], input[type=date] {font-size:21px}
 input[type=date] {height:26px;}
 input[type=checkbox], input[type=radio] {width:18px;height:18px;vertical-align: top;}
-select {-webkit-appearance:none;-moz-appearance:none;appearance:none;border:solid 1px #c6c6c6;border-radius:0;font-size:14px;line-height:26px;height:35px;color:#707070;position:relative;padding:0 22px 0 8px;background:#fff url(../img/common/select_arrow.png) right 14px no-repeat;background-size:22px auto;letter-spacing:-1px}
+select {-webkit-appearance:none;-moz-appearance:none;appearance:none;border:solid 1px #c6c6c6;border-radius:0;font-size:14px;line-height:26px;height:33px;color:#707070;position:relative;padding:0 22px 0 8px;background:#fff url(../img/common/select_arrow.png) right 14px no-repeat;background-size:22px auto;letter-spacing:-1px}
+html.wide select {font-size:21px}
 select:disabled {background-color:#eee;}
-select.type1 {float:left;height:39px;border:none;border-left:1px solid #c6c6c6;background:#fff url(../img/common/select_arrow_type1.png) right 14px no-repeat;background-size:28px auto;padding:0 31px 0 8px;}
+select.type1 {float:left;height:39px;border:none;border-left:1px solid #c6c6c6;background:#fff url(../img/common/select_arrow_type1.png) right 0 no-repeat;background-size:44px auto;padding:0 46px 0 8px;}
+html.wide select.type1{height:50px;background:#fff url(../img/common/select_arrow_type1_t.png) right 0 no-repeat;background-size:44px auto;}
 select.type1:first-child {border-left:0}
 input::-webkit-input-placeholder {font-size:14px;vertical-align:middle}
 
@@ -35,6 +39,8 @@ input::-webkit-input-placeholder {font-size:14px;vertical-align:middle}
 .fn {float:none}
 .divider {display:inline-block}
 .block {display:block}
+.mt10 {margin-top:10px !important}
+.mt13 {margin-top:13px !important}
 .mt20 {margin-top:20px !important}
 .mr5 {margin-right:5px !important}
 .mr15 {margin-right:15px !important}
@@ -43,9 +49,11 @@ input::-webkit-input-placeholder {font-size:14px;vertical-align:middle}
 .mb10 {margin-bottom:10px !important}
 .mbt5{margin-bottom:5px;margin-top:5px !important}
 .ml3{margin-left:3px !important}
+.ml10{margin-left:10px !important}
 .ml40{margin-left:40px !important}
-.ml78{margin-left:78px !important}
 .ml55{margin-left:55px !important}
+.ml65{margin-left:65px !important}
+.ml78{margin-left:78px !important}
 .p0 {padding:0 !important}
 .p5 {padding:5px !important}
 .ptb10 {padding:10px 0 !important}
@@ -53,6 +61,7 @@ input::-webkit-input-placeholder {font-size:14px;vertical-align:middle}
 .pr18 {padding-right:18px !important}
 .pr35 {padding-right:35px !important}
 .pr45 {padding-right:45px !important}
+.pr102 {padding-right:102px !important}
 .pl78{padding-left:78px !important}
 .txtL{text-align:left !important}
 .txtC{text-align:center !important}
@@ -60,14 +69,37 @@ input::-webkit-input-placeholder {font-size:14px;vertical-align:middle}
 .ellipsis {overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
 .vertical_m {vertical-align:middle !important;}
 .fs13{font-size:13px !important}
+html.wide .fs13{font-size:16px  !important;}
 .fs16{font-size:16px !important}
+html.wide .fs16{font-size:21px !important}
 .fs30{font-size:30px !important}
 .fs35{font-size:35px !important}
 .lh17{line-height:17px !important}
-html.narrow .mFull{margin:0 -10px !important}
-html.narrow .btnFull{width:100%}
+.lh25{line-height:25px !important}
+.mFull{margin:0 -10px !important}
+html.narrow .mFull{margin:0 -5px !important}
 .point{color:#229bd3}
 .tbpace{letter-spacing:0 !important}
+/*color*/
+.cB {color:#3d5b77}
+.cS {color:#229bd3}
+.cO {color:#f95d33}
+.cS {color:#33bbf9}
+
+/**/
+
+.w85{width:85px}
+html.wide .w85{width:120px}
+.w100{width:100px}
+html.wide .w100{width:150px}
+.w114{width:114px}
+html.wide .w114{width:180px}
+.w135{width:135px;}
+html.wide .w135{width:200px}
+.w152{width:152px;}
+html.wide .w152{width:200px}
+
+
 
 
 

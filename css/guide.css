@@ -43,7 +43,7 @@ frameset {border:none;border-collapse:collapse}
 /*#region pub_list*/
 .pub_list {padding:0 20px 30px}
 .pub_list a {color:#000}
-.guideArea {padding:0 20px 30px}
+.guideArea {padding:0 20px 30px;overflow:scroll;height:100%}
 .guideArea h3 {margin-top:20px;color:#356094}
 /*#endregion pub_list */
 
@@ -58,6 +58,9 @@ table td.tl{text-align:left}
 table tbody tr.over {background:#ecf1f7}
 .dwUIGuideArea {position:absolute;top:0;right:0;bottom:0;right:0;padding:20px;overflow:auto}
 .guideTitle {display:block;height:50px;line-height:60px;padding-left:20px;font-size:24px;color:#333;font-family:Tahoma;font-weight:normal;border-bottom:1px solid #666;margin-bottom:20px}
+.toDki {margin-top:50px;font-size:12px}
+.toDki dt {font-weight:bold;margin-bottom:5px}
+.toDki dd {color:red;list-style-type:disc !important}
 /*#endregion table */
 
 /*#region etc */

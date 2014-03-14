@@ -1,0 +1,65 @@
+<?php include "$_SERVER[DOCUMENT_ROOT]/com/layout/layout_1.html"; ?>
+<link rel="stylesheet" type="text/css" href="/css/guide.css"/>
+<!-- content -->
+<h1 class="gh1">Kogas UI</h1>
+<h2 class="gh2">button</h2>
+<div class="guideArea">
+    <h3>하단 버튼 : 우측정렬 (가로사이즈:90px; 세로사이즈:40px)</h3>	
+    <div class="btnWrap">
+	    <a href="#" class="btn"><span class="list"></span> 목록</a>
+	    <a href="#" class="btn"><span class="delete"></span> 삭제</a>
+        <a href="#" class="btn"><span class="delete"></span> 취소</a>
+        <a href="#" class="btn"><span class="confirm"></span> 등록</a><br />
+        <a href="#" class="btn"><span class="upArrow"></span> 맨위로</a>
+        <a href="#" class="btn"><span class="srch"></span> 조회</a>
+        <a href="#" class="btn"><span class="check"></span> 확인</a>
+        <a href="#" class="btn"><span class="confirm"></span> 발송</a>
+        <a href="#" class="btn"><span class="srch"></span> 검색</a>
+    </div>
+
+    <h3>하단 버튼 긴버튼 : 우측정렬 (가로사이즈:100px; 세로사이즈:40px)</h3>	
+    <div class="btnWrap">
+	    <a href="#" class="btn l"><span class="srch"></span> 교대근무 검색</a>
+    </div>
+
+    <h3>상단버튼 버튼 : 우측정렬 (가로사이즈:45px(s), 77px(s type1), 100px(s type2); 세로사이즈:35px )</h3>	
+    <div class="btnWrap">
+	    <a href="#" class="btn2 s">검색</a>
+        <a href="#" class="btn2 s tl"><span>본인<br />조회</span></a><br />
+        <a href="#" class="btn2 s type">차량신청</a>
+        <a href="#" class="btn2 s type">연수원 신청</a><br />
+
+        <a href="#" class="btn2 s pre"><span class="arrowL"></span> 지난주</a>
+        <a href="#" class="btn2 s next">다음주<span class="arrowR"></span></a>
+    </div>
+
+    <h3>리스트안 버튼 : 우측정렬 (가로사이즈:62px, 37px, 143px; 세로사이즈:29px)</h3>	
+    <div class="btnWrap">
+	    <a href="#" class="btn2 ">직원검색</a>
+        <a href="#" class="btn2 push"><span>푸시메세지보내기</span></a>
+        <a href="#" class="btn2 tel"><span></span>031-784-0000</a>
+		<a href="#" class="btn2 email"><span></span>test@kogas.or.kr</a>
+
+
+    </div>
+
+    <h3>팝업 버튼 : 중앙정렬</h3>	
+    <div class="btnWrap">
+        <a href="#none" class="btn2 jsbtnLyp" rel="layerPop">팝업버튼보기</a>
+    </div>
+
+    <div id="layerPop" class="lyPopWrap">
+        <div class="lyPopHeader">팝업용 버튼</div>
+        <div class="lyPopCont">
+            <div>팝업에서 사용되는 버튼 종류.</div>
+            <div class="btnWrap">
+                <a href="#" class="btn2 b">문자보내기</a><br />
+                <a href="#" class="btn2 l">확인</a><br />
+                <a href="#" class="btn2">취소</a> <a href="#" class="btn">확인</a>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!-- //content -->
+<?php include "$_SERVER[DOCUMENT_ROOT]/com/layout/layout_2.html"; ?>

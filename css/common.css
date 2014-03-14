@@ -7,71 +7,94 @@ commnet : common
 
 /*spr*/
 .spr {display:inline-block;background:url(../img/common/spr_com.png) no-repeat;background-size:500px auto;font-size:0}
-.spr.file{background-position:-185px 0;width:20px;height:20px;vertical-align:middle}
-.spr.list{background-position:-210px 0;width:12px;height:11px;vertical-align:middle}
-.spr.listWrite{background-position:-225px 0;width:20px;height:20px;vertical-align:middle}
-.spr.listDate{background-position:-250px 0;width:20px;height:20px;vertical-align:middle}
-.spr.listFile{background-position:-275px 0;width:20px;height:20px;vertical-align:middle}
-.spr.listFile2{background-position:-33px -70px;width:20px;height:20px;vertical-align:middle}
-.spr.listViewNum{background-position:-300px 0;width:20px;height:20px;vertical-align:middle}
-.spr.listArr{width:12px;height:12px;background-position:-54px 0;}
-.spr.listTopBtn{background-position:right 0;width:60px;height:58px}
-.spr.srchBtn{background-position:0 -60px;width:33px;height:33px}
-.spr.srch{background-position:-9px -70px;width:14px;height:14px;vertical-align:middle}
-.spr.viewArrTop{background-position:-60px -70px;width:12px;height:6px;vertical-align:middle}
-.spr.titleArr{background-position:-180px -70px;width:5px;height:13px;vertical-align:middle;margin-bottom:4px}
-.spr.iconPeopleTel{background-position:-300px -25px;width:16px;height:16px;vertical-align:middle;}
-.spr.iconPeopleGroup{background-position:-340px -25px;width:16px;height:16px;vertical-align:middle;}
-.spr.iconPhone{background-position:-160px -70px;width:15px;height:15px;vertical-align:middle;}
-.spr.iconMessage{background-position:-140px -70px;width:15px;height:15px;vertical-align:middle;}
-.spr.downArrow{width:12px;height:6px;background-position:-68px -4px;}
+.file{background-position:-185px 0;width:20px;height:20px;vertical-align:middle}
+.list{background-position:-210px 0;width:12px;height:11px;vertical-align:middle}
+.listWrite{background-position:-225px 0;width:20px;height:20px;vertical-align:middle}
+.listDate{background-position:-250px 0;width:20px;height:20px;vertical-align:middle}
+.listFile{background-position:-275px 0;width:20px;height:20px;vertical-align:middle}
+.listFile2{background-position:-33px -70px;width:20px;height:20px;vertical-align:middle}
+.listViewNum{background-position:-300px 0;width:20px;height:20px;vertical-align:middle}
+.listArr{width:12px;height:12px;background-position:-54px 0;}
+.listCheck{width:23px;height:23px;background-position:-180px -160px;}
+.listTopBtn{background-position:right 0;width:60px;height:58px}
+html.wide .listTopBtn{background-position:right -140px;width:71px;height:75px}
+.srchBtn{background-position:0 -60px;width:33px;height:33px}
+.srch{background-position:-9px -70px;width:14px;height:14px;vertical-align:middle}
+.viewArrTop{background-position:-60px -70px;width:12px;height:6px;vertical-align:middle}
+.titleArr{background-position:-180px -70px;width:5px;height:13px;vertical-align:middle;margin-bottom:4px}
+.iconPeopleTel{background-position:-300px -25px;width:16px;height:16px;vertical-align:middle;}
+.iconPeopleGroup{background-position:-340px -25px;width:16px;height:16px;vertical-align:middle;}
+.iconPhone{background-position:-160px -70px;width:15px;height:15px;vertical-align:middle;}
+.iconMessage{background-position:-140px -70px;width:15px;height:15px;vertical-align:middle;}
+.downArrow{width:12px;height:6px;background-position:-68px -4px;}
 .spr.prev {width:6px;height:12px;background-position:-130px 0}
 .spr.next {width:6px;height:12px;background-position:-141px 0}
 html.wide .spr.prev {width:10px;height:21px;background-position:-152px 0}
 html.wide .spr.next {width:10px;height:21px;background-position:-167px 0}
-.on .spr.man {width:20px;height:20px;background-position:-225px -25px}
-.on .spr.companies {width:20px;height:20px;background-position:-245px -25px}
-.spr.man {width:20px;height:20px;background-position:-225px -45px}
-.spr.companies {width:20px;height:20px;background-position:-245px -45px}
-.spr.noHere {width:21px;height:21px;background-position:0 -100px}
-.spr.nowHere {width:21px;height:21px;background-position:-21px -100px}
-.spr.meeting {width:21px;height:21px;background-position:-42px -100px}
-.spr.inCompany {width:21px;height:21px;background-position:-63px -100px}
-.spr.arrowLeftG {width:7px;height:13px;background-position:-197px -70px;}
-.spr.arrowRightG {width:7px;height:13px;background-position:-214px -70px;}
-.jf .spr.food {width:46px;height:36px;background-position:-164px -41px;background-size:300px auto;}
-.jf .spr.leave {width:46px;height:36px;background-position:-210px -41px;background-size:300px auto;}
-.jf .spr.academy {width:46px;height:36px;background-position:-257px -41px;background-size:300px auto;}
-html.wide .jf .spr.food {width:75px;height:65px;background-position:-275px -65px;background-size:500px auto;}
-html.wide .jf .spr.leave {width:75px;height:65px;background-position:-350px -65px;background-size:500px auto;}
-html.wide .jf .spr.academy {width:75px;height:65px;background-position:-425px -65px;background-size:500px auto;}
-.spr.plus {width:5px;height:5px;background-position:-230px -75px;}
-.spr.iconMail{width:15px;height:10px;background-position:-360px -25px;}
-.spr.close {width:16px;height:16px;background-position:-248px -70px;}
+.on .spr.man {width:20px;height:20px;background-position:-225px -24px}
+.on .spr.companies {width:20px;height:20px;background-position:-245px -24px}
+.man {width:20px;height:20px;background-position:-225px -45px}
+.companies {width:20px;height:20px;background-position:-245px -45px}
+.noHere {width:21px;height:21px;background-position:0 -100px}
+.nowHere {width:21px;height:21px;background-position:-21px -100px}
+.meeting {width:21px;height:21px;background-position:-42px -100px}
+.inCompany {width:21px;height:21px;background-position:-63px -100px}
+.arrowLeftG {width:7px;height:13px;background-position:-197px -70px;}
+.arrowRightG {width:7px;height:13px;background-position:-214px -70px;}
+.jf .food {width:46px;height:36px;background-position:-164px -41px;background-size:300px auto;}
+.jf .leave {width:46px;height:36px;background-position:-210px -41px;background-size:300px auto;}
+.jf .academy {width:46px;height:36px;background-position:-257px -41px;background-size:300px auto;}
+html.wide .jf .food {width:75px;height:65px;background-position:-275px -65px;background-size:500px auto;}
+html.wide .jf .leave {width:75px;height:65px;background-position:-350px -65px;background-size:500px auto;}
+html.wide .jf .academy {width:75px;height:65px;background-position:-425px -65px;background-size:500px auto;}
+.plus {width:5px;height:5px;background-position:-230px -75px;}
+.iconMail{width:15px;height:10px;background-position:-360px -25px;}
+.close {width:16px;height:16px;background-position:-248px -70px;}
+.upArrow {width:10px;height:7.5px;background-position:-395px -25px}
+.dnArrow {width:10px;height:7.5px;background-position:-380px -25px}
+.titBul{width:3px;height:3px;background-position:-420px 0;vertical-align:middle;margin:0 5px 5px 0}
+.headerMG{width:18px;height:28px;background-position:0 -199px;vertical-align:middle}
+.headerEB{width:23px;height:19px;background-position:-23px -199px;vertical-align:middle}
+.headerEM{width:23px;height:25px;background-position:-48px -199px;vertical-align:middle}
+.headerMA{width:21px;height:20px;background-position:-74px -199px;vertical-align:middle}
+.headerCG{width:22px;height:21px;background-position:-97px -199px;vertical-align:middle}
+.headerKW{width:30px;height:17px;background-position:-120px -199px;vertical-align:middle}
+.headerMR{width:18px;height:18px;background-position:-153px -199px;vertical-align:middle}
+.visitArr{width:10px;height:9px;background-position:-100px -100px;vertical-align:middle}
+.new{width:16px;height:16px;background-position:-120px -160px;vertical-align:middle}
 
 .iconbox span{background-color:#fff}
 
 /*contWrap*/
-#contWrap {padding:10px;overflow:hidden}
-#contWrap .titWrap {margin:8px 0 18px;position:relative;}
-#contWrap .titWrap.type2 {margin: 2px 0 7px;}
+#contWrap {padding:5px;overflow:hidden}
+html.wide #contWrap {padding:10px;overflow:hidden}
+#contWrap .titWrap {margin:16px 0 18px;position:relative;}
+#contWrap .titWrap.type2 {margin: 6px 0 10px;}
 #contWrap .titWrap h2 {font-size:16px;font-weight:bold;letter-spacing:-2px;color:#5b5b5b}
+html.wide #contWrap .titWrap h2 {font-size:21px;}
 #contWrap .titWrap.type2 h2 {font-size:14px;font-weight:normal;}
 #contWrap .titBtnWrap{position:absolute;top:13px;right:10px}
-#contWrap .titBtnWrap .btn {width:auto;padding:0 8px;height:35px;line-height:35px;font-size:13px}
+html.wide #contWrap .titBtnWrap{top:20px;}
+#contWrap .titWrap.type3{border-bottom:1px solid #c6c6c6;padding-bottom:13px;line-height:13px}
+#contWrap .titWrap.type4 {margin:8px 0 18px;position:relative;}
 
 /*table*/
-.tblType,.tblType th,.tblType td{border:0;background: #ffffff;}
+.tblType,.tblType th,.tblType td{border:0;background: #fff;}
 .tblType{width:100%;border-left:1px solid #c6c6c6;border-right:1px solid #c6c6c6;border-bottom:1px solid #c6c6c6;table-layout:fixed;border-spacing:0;letter-spacing:-1px;font-size:13px}
 .tblType caption{display:none}
-.tblType th{height:39px;line-height:39px;padding:0 10px;border-top:1px solid #c6c6c6;border-right:1px solid #c6c6c6;background:#f1f1f3;color:#666;font-weight:bold;text-align:left;vertical-align:middle}
-.tblType td{position:relative;height:39px;line-height:39px;padding:0 10px;border-top:1px solid #c6c6c6;vertical-align:top}
+.tblType th{height:39px;line-height:39px;padding:0 10px;border-top:1px solid #c6c6c6;border-right:1px solid #c6c6c6;background:#f5f4f5;color:#666;font-weight:bold;text-align:left;vertical-align:middle}
+html.wide .tblType th{font-size:21px;height:49px;line-height:49px;}
+.tblType td{position:relative;height:39px;line-height:39px;padding:0 10px;border-top:1px solid #c6c6c6;}
+html.wide .tblType td{font-size:21px;height:49px;line-height:49px}
+html.wide .tblType .tbmenu{line-height:20px}
+
 .tblType .memo td textarea {height:78px;line-height:1.5;resize:vertical}
 
 .tblType_2,.tblType_2 th,.tblType_2 td{border:0}
 .tblType_2{width:100%;table-layout:fixed;border-spacing:0;letter-spacing:-1px;font-size:13px}
 .tblType_2 caption{display:none}
 .tblType_2 th{padding:5px;border-top:1px solid #c6c6c6;border-right:1px solid #c6c6c6;background:#d9dada;color:#666;font-size:15px;font-weight:bold;text-align:center;vertical-align:top}
+html.wide .tblType_2 th{font-size:21px}
 .tblType_2 td{position:relative;height:39px;line-height:39px;padding:0 5px;border-top:1px solid #c6c6c6;vertical-align:middle;background:#f5f4f5}
 .tblType_2 tbody th {background:#d9dada;vertical-align:middle}
 .tblType_2 tbody td:last-child {background:#fff;text-align:left;padding-right:90px}
@@ -82,56 +105,119 @@ html.wide .jf .spr.academy {width:75px;height:65px;background-position:-425px -6
 .tblType.type2{border:0;border-bottom:1px solid #c6c6c6}
 .tblType.type2 th{text-align:center;padding:0 7px}
 .tblType.type2 thead th{border-right:0;background-color:#d9dada;padding:2px 7px}
+html.wide .tblType.type2 thead th{padding:11px 7px}
 .tblType.type2 thead th.viewTitle{text-align:left;line-height:30px;}
-.tblType.type2 tbody th.date{background: #ffffff;vertical-align:middle}
+.tblType.type2 tbody th.date{background: #fff;vertical-align:middle}
+.tblType.type2 tbody th.version{font-size:18px;padding:33px 0;border-right:0}
+html.wide .tblType.type2 tbody th.version{font-size:21px;}
 .tblType.type2 tbody td.viewFile{background: #f5f4f5;}
+html.wide .tblType.type2 tbody td.viewFile{padding:5px 10px;}
 .tblType.type2 tbody td.viewFile a{color:#707070}
+.tblType.type2 tbody td.address{line-height:20px;padding:5px 10px;vertical-align:middle}
+html.wide .tblType.type2 tbody td.address{line-height:28px;padding:12px 10px;}
 .tblType.type2 td.viewData{line-height:24px;padding:5px 10px;}
+html.wide .tblType.type2 td.viewData{line-height:30px;padding:13px 10px;}
 .tblType.type2 th .viewInfo{font-weight:normal}
 .tblType.type2 th .viewInfo strong{font-weight:bold}
 
 .tblType.type3{border:0;border-bottom:1px solid #c6c6c6}
 .tblType.type3 thead th{border-right:0;background-color:#d9dada;padding:2px 7px;text-align:center}
-.tblType.type3 tbody td{text-align:right;}
+.tblType.type3 tbody td{text-align:right;background: #fff;}
+.tblType.type3 tr:nth-child(2n+1) td{background: #f5f4f5;}
 .tblType.type3 tbody td.bR{border-right:1px solid #c6c6c6}
 
 .tblType.type4 {border:0;border-bottom:1px solid #c6c6c6;letter-spacing:0;}
 .tblType.type4 tbody th.bR{border-right:1px solid #c6c6c6}
+.tblType.type4 th{line-height:17px;padding:3px 10px 3px;}
+.tblType.type4 td{height:auto;line-height:30px;padding:6px 10px 4px;}
 .tblType.type4 tbody td{border-right:1px solid #c6c6c6;text-align:center;}
 .tblType.type4 .bNone{border-right:0 !important}
+
+.tblType.type5{border-left:0;border-right:0;}
+.tblType.type5 td{background-color:#f5f4f5}
+.tblType.type5 tr:nth-child(2n+1) td{background: #fff;}
+
+
+.tblType.type6{border-left:0;border-right:0;}
+html.wide .tblType.type6{margin:0 -10px}
+
+
 
 
 .tblType_3,.tblType_3 th,.tblType_3 td{border:0}
 .tblType_3{width:100%;text-align:center;border-spacing:0;border-collapse:separate;border-top:1px solid #c6c6c6}
 .tblType_3 caption{display:none}
 .tblType_3 th{padding:12px 0 9px;border-left:1px solid #d9dada;background-color:#d9dada;color:#666;font-weight:bold;font-size:16px;color:#5b5b5b}
-.tblType_3 td{padding:13px 0 10px;border-bottom:1px solid #e2e2e2;border-left:1px solid #e2e2e2;font-size:14px}
+html.wide .tblType_3 th{font-size:21px}
+.tblType_3.type2 th{background: #f5f4f5;border-left:0;}
+.tblType_3 td{padding:13px 0 10px;border-bottom:1px solid #e2e2e2;border-left:1px solid #e2e2e2;font-size:14px;background: #f5f4f5;}
+html.wide .tblType_3 td{font-size:21px}
 .tblType_3 tr:first-child td {border-top:1px solid #c6c6c6}
 .tblType_3 th:first-child, .tblType_3 td:first-child {border-left:none}
-.tblType_3 tr:nth-child(2n+1) td {background-color:#f5f4f5}
+.tblType_3 tr:nth-child(2n+1) td {background-color:#ffffff}
+.tblType_3.type2 tr:nth-child(2n+1) td{background: #ffffff;}
+.tblType_3 thead th.title{text-align:left;padding:15px 0 15px 11px;color:#fff;background:#2d4e6d;position:relative;}
+.shareLink {display:block;position:absolute;top:0;right:0;background:#1f3f5d;height:32px;padding:16px 16px 0 24px;font-size:13px;color:#fff}
+html.wide .shareLink {padding:20px 20px 0 24px;height:34px;}
+.shareLink .plus{margin-right:7px;vertical-align:middle;margin-bottom:2px}
+
 
 .tblType_4{width:100%;border-bottom:1px solid #c6c6c6;table-layout:fixed;border-spacing:0;letter-spacing:-1px;font-size:13px;text-align:center}
-.tblType_4 th,.tblType_4 td{border-top:1px solid #c6c6c6;border-left:1px solid #c6c6c6;background: #ffffff;}
+html.wide .tblType_4{font-size:16px}
+.tblType_4 th,.tblType_4 td{border-top:1px solid #c6c6c6;border-left:1px solid #c6c6c6;background: #fff;}
 .tblType_4 th:first-child,.tblType_4 td:first-child {border-left:0 none}
 .tblType_4 caption{display:none}
 .tblType_4 th{height:39px;line-height:39px;padding:0 10px;background:#f1f1f3;color:#666;}
 .tblType_4 td{position:relative;height:39px;line-height:39px;padding:0 10px;}
 
-table .btnDelete,table .unitTxt {position:absolute;display:block;}
-table .btnDelete {top:10px;right:9px;width:18px;height:18px;background:url(../img/common/spr_com.png) no-repeat;background-size:500px auto;background-position:-107px top;font-size:0}
+
+
+.tblType_5,.tblType_5 th,.tblType_5 td{border:0;text-align:center}
+.tblType_5 th{background: #d9dada;}
+.tblType_5{width:100%;border-bottom:1px solid #c6c6c6;table-layout:fixed;border-spacing:0;letter-spacing:-1px;font-size:13px;border-top:1px solid #c6c6c6;}
+html.wide .tblType_5{font-size:21px}
+.tblType_5 caption{display:none}
+.tblType_5 tr{cursor:pointer}
+.tblType_5 th{height:39px;line-height:39px;padding:0 10px;background:#d9dada;color:#666;font-weight:bold;vertical-align:middle}
+.tblType_5 td{position:relative;height:39px;line-height:39px;padding:0 10px;border-top:1px solid #c6c6c6;border-left:1px solid #c6c6c6;vertical-align:top;background-color:#f5f4f5}
+.tblType_5 td:first-child{border-left:0}
+.tblType_5 td:last-child{border-left:0}
+.tblType_5 tr:nth-child(2n+1) td {background-color:#ffffff}
+
+
+
+
+table .btnDelete,table .unitTxt,table .unitTxt2 {position:absolute;display:block;}
+table .btnDelete {top:10px;right:9px;width:19px;height:18px;background:url(../img/common/spr_com.png) no-repeat;background-size:500px auto;background-position:-107px top;font-size:0}
+html.wide table .btnDelete {top:14px}
+table .btnDelete.s{right:75px}
 table .unitTxt {top:10px;right:9px;line-height:1.5;width:18px;text-align:center;}
+table .unitTxt2{top:0px;right:56px;}
+table .btn2.td.s{position:absolute;top:3px;right:0;width:70px}
+table .btn2.type{width:63px}
+html.wide table .btn2.type{width:80px}
+html.wide table .btn2.td.s{top:8px;}
+table input[type=radio]{vertical-align:middle}
 
 .foodmenu tbody td:last-child{padding:10px 40px 10px 10px;line-height:20px }
-.tdmenu td{padding:10px 20px 10px 10px;line-height:17px;height:auto}
 
 /*popup*/
 #popFade {display:none;background:url(../img/common/bg_lypop.png);position:fixed;left:0;top:0;width:100%;height:100%;z-index: 9990}
 .lyPopBack{}
 .lyPopWrap{display:none;float:left;position:fixed;top:50%;left: 50%;z-index: 9999;border:solid 1px #888; background:#fff; padding:0}
+.lyPopWrap.loading {background:transparent;border:solid 1px transparent;text-align:center}
+.lyPopWrap.loading img {width:34px;height:34px}
 .lyPopHeader {position:relative;height:51px;background-color:#229bd3;color:#fff;line-height:51px;font-size:21px;padding:0 30px;font-weight:bold;text-align:center}
 .lyPopCont {border:1px solid #c6c6c6;border-top:none;padding:30px 14px 24px;text-align:center}
 .lyPopCont.bgF {background:#f1f1f1}
-.jsPopClose { }
+.lyPopCont .srchWrap select{border:1px solid #d2d2d2}
+.lyPopCont .inputWrap{border:1px solid #d2d2d2}
+.lyPopCont .inputWrap input[type=text]{height:33px}
+html.wide .lyPopCont .inputWrap input[type=text]{height:37px}
+
+
+.jsPopClose{}
+.jsPopClose.close{font-size:0;display:block;position:absolute;top:18px;right:20px;width:16px;height:16px;background:url('../img/common/spr_com.png') no-repeat -248px -70px;background-size:500px auto}
 .jsAxpClose {display:block;position:absolute;top:24px;right:24px;width:12px;height:12px;background:url('../img/common/spr_com.png') no-repeat -488px -59px;}
 .popWrap {background:url(../img/common/bg_lypop.png);position:fixed;top:0;left:0;width:100%;height:100%;overflow:visible;display:none;z-index:9998}
 .popCont{display:none;float:left;position:fixed;top:50%;left: 50%;z-index: 9999;position:relative;border:solid 1px #888; background:#fff; padding:0}
@@ -141,28 +227,99 @@ table .unitTxt {top:10px;right:9px;line-height:1.5;width:18px;text-align:center;
 .closeBtn {position:absolute;right:12px;top:12px;display:block;padding:5px;}
 
 /*btn*/
-.btnWrap {text-align:center;margin:20px 0 0;}
-.btnWrap .btn:first-child {margin-left:0}
-.btnWrap .btn:only-child {width:100%}
-.btn {display:inline-block;height:43px;width:145px;line-height:43px;color:#fff;background-color:#adadaf;text-align:center;font-size:16px;letter-spacing:-1px;font-weight:bold;margin:0;padding:0;border:0;margin-left:5px}
-a.btn:hover {text-decoration:none;color:#fff}
-.btn.em {background-color:#29384f}
-.btn.l {width:300px;margin:0}
-.btn.s {width:70px;height:25px;line-height:26px;background-color:#adadae;font-size:12px}
-.btn.n {background-color:#ebebeb;border:1px solid #c6c6c6;color:#5b5b5b;width:88px;height:38px;font-size:15px;line-height:36px;}
-.btn.longTxt {letter-spacing:-2px}
-.lyPopCont .btnWrap:first-child {margin-top:0}
-.lyPopCont .btn {width:130px;height:40px;line-height:40px}
+.btnWrap {text-align:right;margin:20px 0 0;}
+.btnWrap .btn:first-child,.btnWrap .btn2:first-child {margin-left:0}
+/*.btnWrap .btn:only-child {width:100%}*/
+html.wide .btnWrap .btn:only-child.type2 {width:145px}
+.btn {display:inline-block;width:88px;height:38px;line-height:38px;text-align:center;font-size:15px;letter-spacing:-1px;font-weight:bold;margin:0;padding:0;border:0;overflow:hidden;
+      color:#5b5b5b;
+      background-color: #f1f3f4;
+      *background-color: #f1f3f4;
+      background-image: -moz-linear-gradient(top, #f1f3f4, #ccd0d6);
+      background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f1f3f4), to(#ccd0d6));
+      background-image: -webkit-linear-gradient(top, #f1f3f4, #ccd0d6);
+      background-image: -o-linear-gradient(top, #f1f3f4, #ccd0d6);
+      background-image: linear-gradient(to bottom, #f1f3f4, #ccd0d6);
+      background-repeat: repeat-x;
+      border-radius:3px;
+      border-width:1px;
+      border-style:solid;
+      border-color: #c4c2c2 #b7b6b6 #9d9d9d;
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f1f3f4', endColorstr='#ccd0d6', GradientType=0);
+      filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+      margin-left:5px}
 
-.btn2 {display:inline-block;height:43px;width:100%;line-height:43px;color:#fff;background-color:#29384f;text-align:center;font-size:16px;letter-spacing:-1px;font-weight:bold;margin:0;padding:0;border:0;margin-left:5px;}
-html.wide .btn2 {display:inline-block;height:43px;width:145px;line-height:43px;color:#fff;background-color:#29384f;text-align:center;font-size:16px;letter-spacing:-1px;font-weight:bold;margin:0;padding:0;border:0;margin-left:5px;}
+.btn2 {display:inline-block;width:88px;height:38px;line-height:38px;text-align:center;font-size:13px;letter-spacing:-1px;font-weight:bold;margin:0;padding:0;border:0;overflow:hidden;
+	color:#707070;
+	background-color: #f1f3f4;
+	*background-color: #f1f3f4;
+	background-image: -moz-linear-gradient(top, #fff, #d9dde2);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fff), to(#d9dde2));
+	background-image: -webkit-linear-gradient(top, #fff, #d9dde2);
+	background-image: -o-linear-gradient(top, #fff, #d9dde2);
+	background-image: linear-gradient(to bottom, #fff, #d9dde2);
+	background-repeat: repeat-x;
+	border-radius:3px;
+	border-width:1px;
+	border-style:solid;
+	border-color: #cfd2d7 #c3c4c6 #b4b4b4;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f1f3f4', endColorstr='#ccd0d6', GradientType=0);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+	margin-left:5px}
+
+html.wide .btn{font-size:19px}
+html.wide .btn2{font-size:15px}
+a.btn:hover, a.btn2:hover {text-decoration:none;color:#5b5b5b}
+.btn.l {width:133.5px;font-size:16px}
+html.wide .btn.l {width:164px;}
+.btn.type {width:100px;}
+html.wide .btn.type{width:120px}
+.btn2.s {width:43px;height:33px;line-height:33px;font-size:13px}
+.btn2.s.tl {position:relative}
+.btn2.s.tl span {background:none;position:absolute;display:inline-block;top:4px;left:11px;line-height:1;}
+.btn2.s.tl span.bottom{top:18px;}
+.btn2.s.type {width:85px;letter-spacing:-1px}
+html.wide .btn2.s.type{width:95px}
+.btn2.s.pre {width:90px;text-align:right;padding-right:10px;position:relative}
+.btn2.s.next {width:90px;text-align:left;padding-left:10px;position:relative}
+.btn2.srchText {width:60px;height:27px;line-height:27px;font-size:13px}
+.btn2.push {width:35px;height:27px;font-size:0;line-height:27px;vertical-align:middle;}
+html.wide .btn2.push{font-size:0}
+.btn2.push span {width:17px;height:15px;display:inline-block;background-position:-280px -130px;vertical-align:middle;}
+.btn2.tel {width:auto;height:27px;line-height:27px;padding:0 7px;position:relative;text-align:left;vertical-align:middle;margin-left:0}
+.btn2.tel span{width:14px;height:27px;background-position:-300px -125px;vertical-align:middle;border-right:1px solid #bcbcbc;padding-right:6px;margin-right:10px;}
+.btn2.email {width:auto;height:27px;line-height:27px;padding:0 15px 0 7px;position:relative;text-align:left;vertical-align:middle;margin-left:0}
+.btn2.email span{width:14px;height:27px;background-position:-320px -122px;vertical-align:middle;border-right:1px solid #bcbcbc;padding-right:6px;margin-right:10px;}
+.btn2.td {width:80px;height:29px;line-height:30px;font-size:13px;vertical-align:middle;margin-bottom:3px}
+
+.btn span,.btn2 span{display:inline-block;background:url('../img/common/spr_com.png') no-repeat;background-size:500px auto;}
+.btn span.list{width:14px;height:13px;background-position:-120px -130px;vertical-align:middle}
+.btn span.delete{width:14px;height:16px;background-position:-140px -130px;vertical-align:middle}
+.btn span.cancel{width:16px;height:13px;background-position:-160px -130px;vertical-align:middle}
+.btn span.upArrow{width:14px;height:11px;background-position:-180px -130px;vertical-align:middle}
+.btn span.srch{width:14px;height:17px;background-position:-200px -130px;vertical-align:middle}
+.btn span.confirm{width:16px;height:13px;background-position:-160px -130px;vertical-align:middle}
+.btn span.check{width:12px;height:13px;background-position:-220px -130px;vertical-align:middle}
+.btn2 span.arrowL{width:6px;height:14px;background-position:-240px -130px;vertical-align:middle;}
+.btn2 span.arrowR{width:6px;height:14px;background-position:-260px -130px;vertical-align:middle;}
+.btn2.s.pre span.arrowL{position:absolute;top:10px;left:10px;}
+.btn2.s.next span.arrowR{position:absolute;top:10px;right:10px;}
+
+.lyPopWrap .btn2 {width:128px;height:38px;line-height:38px;margin-left:0}
+.lyPopWrap .btn2.b {width:128px;height:48px;line-height:48px;letter-spacing:-2px;font-size:14px}
+.lyPopWrap .btn2.l {width:268px}
+.lyPopWrap .btnWrap .btn2:only-child {width:100%}
+
 
 .btnArrow {width:19%;padding:0 8px;border:solid 1px #c6c6c6;height:35px;color:#707070}
 .btnArrow p{font-weight:bold;font-size:14px;letter-spacing:-1px;text-align:left;padding-top:10px}
 
 .selectBtn{width:49%;bottom:10px;vertical-align:middle;float:right}
+
 /*adverWrap*/
 .adverWrap {border:1px solid #c6c6c6;line-height:0;height:100px;overflow:hidden}
+.adverWrap.type2{display:none}
+html.wide .adverWrap.type2{display:block}
 .adverWrap img {width:100%;height:100px}
 html.wide .adverWrap, html.wide .adverWrap img {height:245px}
 
@@ -172,151 +329,195 @@ html.wide .adverWrap, html.wide .adverWrap img {height:245px}
 html.wide .mapWrap, html.wide .mapWrap img {height:400px}
 
 /*quickLink*/
-.quickLink {overflow:hidden;margin:10px 0}
-.quickLink li {float:left;width:33.4%;height:81px;background-color:#f4f3f1;text-align:center;box-sizing:border-box;-moz-box-sizing:border-box;border:1px solid #c6c6c6;letter-spacing:-1px;margin-left:-1px}
-.quickLink li.m1, .quickLink li.m4 {margin-left:0}
-.quickLink li.m4, .quickLink li.m5, .quickLink li.m6 {margin-top:-1px}
-.quickLink li a {display:block;position:relative;font-size:14px;font-weight:bold;height:100%;color:#565656;overflow:hidden}
+.quickLink {overflow:hidden;margin:10px 0 4px}
+.quickLink li {float:left;height:80px;background-color:#f4f3f1;text-align:center;box-sizing:border-box;-moz-box-sizing:border-box;border:1px solid #c6c6c6;letter-spacing:-1px;margin:0 6px 6px 0}
+.quickLink li a {display:block;position:relative;font-size:13px;font-weight:bold;height:100%;color:#565656;overflow:hidden}
 .quickLink li span {display:block;background:url(../img/common/spr_com.png) no-repeat;background-size:500px auto;font-size:0;margin:15px auto 10px}
 .quickLink li.m1 span {width:30px;height:31px;background-position:0 -26px}
 .quickLink li.m2 span {width:30px;height:31px;background-position:-34.5px -26px}
-.quickLink li.m3 span {width:30px;height:31px;background-position:-67px -26px}
+.quickLink li.m3 span {width:40px;height:31px;background-position:-220px -150px}
 .quickLink li.m4 span {width:30px;height:31px;background-position:-100px -26px}
-.quickLink li.m5 span {width:34px;height:31px;background-position:-134px -26px}
+.quickLink li.m5 span {width:34px;height:31px;background-position:-265px -150px}
 .quickLink li.m6 span {width:30px;height:31px;background-position:-172.5px -26px}
-.quickLink li.m11 span {width:32px;height:34px;background-position:0px -130px}
-.quickLink li.m12 span {width:32px;height:34px;background-position:-35px -130px}
-.quickLink li.m13 span {width:33px;height:34px;background-position:-70px -130px}
 
-html.wide .quickLink li {float:left;width:16.6%;margin:0 0 0 -1px}
-html.wide .quickLink li:first-child {margin-left:0}
-html.wide .quickLink li:last-child {}
-html.wide .quickLink li span {}
+.quickLink2 {overflow:hidden;margin:10px 0 4px}
+.quickLink2 li {float:left;height:80px;background-color:#f4f3f1;text-align:center;box-sizing:border-box;-moz-box-sizing:border-box;border:1px solid #c6c6c6;letter-spacing:-1px;margin:0 0px 6px 6px;}
+.quickLink2 li:first-child{margin-left:0 !important}
+.quickLink2 li a {display:block;position:relative;font-size:13px;font-weight:bold;height:100%;color:#565656;overflow:hidden;letter-spacing:-1px}
+.quickLink2 li span {display:block;background:url(../img/common/spr_com.png) no-repeat;background-size:500px auto;font-size:0;margin:15px auto 10px}
+.quickLink2 li.m11 span {width:32px;height:34px;background-position:0px -130px}
+.quickLink2 li.m12 span {width:32px;height:34px;background-position:-35px -130px}
+.quickLink2 li.m13 span {width:33px;height:34px;background-position:-70px -130px}
 
+html.narrow .quickLink li.m3, html.narrow .quickLink li.m6 {margin-right:0 !important}
+html.wide .quickLink {height:258px}
+html.wide .quickLink li.m2, html.wide .quickLink li.m4 ,html.wide .quickLink li.m6  {margin-right:0 !important}
 
-/*mBoardWrap*/
-.mBoardWrap {border:1px solid #c6c6c6;height:204px;overflow:hidden}
-.mBoardWrap > ul {position:relative}
-.mBoardWrap > ul:after {display:block;clear:both;content:''}
-.mBoardWrap > ul > li {float:left;width:50%;height:36px;line-height:1;text-align:center;border-bottom:3px solid #e8e6e3;margin-top:10px}
-.mBoardWrap > ul > li > a {display:block;font-weight:bold;font-size:18px;color:#b2b2b2;letter-spacing:-1px}
-.mBoardWrap > ul > li:first-child a {border-right:1px solid #c6c6c6}
-.mBoardWrap > ul > li.on {border-color:#33bbf9}
-.mBoardWrap > ul > li.on > a {color:#229bd3}
-.mBoardWrap > ul > li > a span {display:inline-block;width:15px;height:18px;background:url(../img/common/spr_com.png) no-repeat;background-size:500px auto;background-position:-397px 0;margin:0 5px 0 0;position:relative;top:2px}
-.mBoardWrap > ul > li.on > a span {background-position:-377px 0}
-.mBoardWrap > ul > li:first-child > a span {display:inline-block;width:21px;height:18px;background:url(../img/common/spr_com.png) no-repeat;background-size:500px auto;background-position:-351px 0}
-.mBoardWrap > ul > li:first-child.on > a span {background-position:-325px 0}
-.mBoardWrap ul ul {display:none;position:absolute;top:49px;left:0;width:100%}
-.mBoardWrap li.on ul {display:block}
-.mBoardWrap ul ul li {position:relative;height:38px;line-height:38px;text-align:left;padding:0 10px;border-top:1px solid #e2e2e2}
-.mBoardWrap ul ul li a{color:#707070;border:none !important}
-.mBoardWrap ul ul li:first-child {border-top:0}
-.mBoardWrap ul ul li:nth-child(2n+1) {background-color:#f5f4f5}
-.mBoardWrap ul ul li span {position:absolute;right:10px;display:inline-block}
 
 /*srchWrap*/
 .srchWrap {position:relative;padding-bottom:14px;overflow:hidden;min-height:35px}
 .srchWrap:after {clear:both;display:block;content:''}
-.srchWrap .btn {width:auto;padding:0 8px;height:35px;line-height:35px;font-size:13px}
+.srchWrap .btn {width:auto;padding:0 8px;height:35px;line-height:35px;font-size:13px;vertical-align:middle}
 .srchWrap .srchLeft {position:absolute;left:0;right:120px;}
 .srchWrap .srchRight {position:absolute;right:0}
-.srchWrap .inputWrap {position:relative;}
 .srchWrap .srchKind{position:absolute;top:0;left:0}
-.srchWrap .inputWrap{border:1px solid #c6c6c6;background: #ffffff;}
-.srchWrap .inputWrap input[type=text]{width:99.9%;height:33px;margin-right:20px}
+.srchWrap .inputWrap{border:1px solid #c6c6c6;background: #fff;position:relative;height:31px}
+.srchWrap .inputWrap input[type=text]{width:99.9%;height:31px !important;margin-right:20px}
 .srchWrap .srchBtn{position:absolute;top:0;right:0px;display:inline-block;width:33px;height:33px}
+.srchWrap2 {margin-bottom:10px}
+html.wide .srchWrap2{text-align:right}
+html.wide .srchWrap2 .btn2{width:88px;line-height:34px}
+html.wide .srchWrap2 .btn2.tl span{position:relative;top:0;left:0}
+.srchWrap2 .btn2{vertical-align:middle}
+.srchWrap2 select{padding-left:3px;padding-right:17px;background:#fff url(../img/common/select_arrow_type2.png) right 14px no-repeat;background-size:18px auto;}
+/*background:#fff url(../img/common/select_arrow.png) right 14px no-repeat;background-size:22px auto;*/
+.srchWrap2 .divider{display:inline-block;width:5px;margin-left:-3px}
 
 /*listReservation*/
-.reservationList {overflow:hidden;border-top:1px solid #c6c6c6;margin:0 -10px}
-.reservationList li {height:48px;line-height:48px;border-top:1px solid #fff;border-bottom:1px solid #c6c6c6;background-color:#e8e8e8;text-align:center}
-.reservationList li a {height:48px;line-height:48px;display:block;font-size:16px;font-weight:bold;position:relative}
-.reservationList li a em {font-style:normal;color:#229bd3}
-.reservationList li a span {position:absolute;top:20px;right:14px;display:block;width:12px;height:6px;background:url(../img/common/spr_com.png) no-repeat;background-size:500px auto;background-position:-68px -4px;}
-.reservationList li.on {height:auto}
-.reservationList li.on a span {background-position:-68px -15px}
-.reservationList li .tblType_2 {display:none}
-.reservationList li.on .tblType_2 {display:inline-table}
+.reservationList {overflow:hidden;border-top:1px solid #c6c6c6;margin:0}
+html.wide .reservationList {margin:0 -10px}
+.reservationList > li {height:48px;line-height:48px;border-top:1px solid #fff;border-bottom:1px solid #c6c6c6;text-align:center}
+.reservationList > li > a {height:48px;line-height:48px;display:block;font-size:16px;font-weight:bold;position:relative}
+html.wide .reservationList > li > a{font-size:21px}
+.reservationList > li > a em {font-style:normal;color:#229bd3}
+.reservationList > li > a span {position:absolute;top:20px;right:14px;display:block;width:12px;height:8px;background:url(../img/common/spr_com.png) no-repeat;background-size:500px auto;background-position:-68px -4px;}
+.reservationList > li.on {height:auto}
+.reservationList > li.on > a {background-color:#e2e2e2}
+.reservationList > li.on > a span {background-position:-68px -15px;}
+.reservationList > li .tblType_2 {display:none}
+.reservationList > li .tblType_2 td{padding:0 5px}
+html.wide .reservationList > li .tblType_2 td{padding:0 5px;font-size:16px}
+.reservationList.type2 > li .tblType_2 td{padding:0px}
+html.wide .reservationList.type2 > li .tblType_2 td{padding:0px}
+.reservationList.type2 > li .tblType_2 tbody tr:nth-child(2n) td{border-top: 1px solid #c6c6c6;}
+.reservationList > li.on .tblType_2 {display:inline-table}
+.reservationList .bookIcon{font-size:0;position:absolute;top:13px;right:13px;width:12px;height:12px;background:url(../img/common/spr_com.png) no-repeat -54px 0;background-size:500px auto;display:inline-block}
+
+.reservationList td ul.listTime{width:100%;}
+.reservationList td ul.listTime span.time {background:#f5f4f5;width:50px;display:inline-block;position:absolute;top:0;left:0;text-align:center}
+html.wide .reservationList td ul.listTime .time{width:111px}
+.reservationList td ul.listTime li {border-top:1px dashed #c6c6c6;height:39px;width:100%;position:relative;padding-left:60px}
+html.wide .reservationList td ul.listTime li{padding-left:120px;font-size:16px}
+.reservationList td ul.listTime li:first-child{border-top:0px solid #c6c6c6}
+.reservationList td ul.listTime li a{display:block;width:100%;height:39px}
+.reservationList td ul.listTime li .bookIcon{right:74px}
+
+
 
 /*캘린더*/
-.calWrap{margin:0 -11px;padding:13px 0 0 0;background-color:#fff;text-align:center;border-top:1px solid #c6c6c6}
-html.wide .calWrap {padding-top:23px}
+.calWrap{padding:13px 0 0 0;background-color:#fff;text-align:center;border-top:1px solid #c6c6c6}
+html.wide .calWrap {padding-top:23px;margin:0 -12px}
 .calWrap .calDate {position:relative;height:22px;line-height:22px}
 html.wide .calWrap .calDate {height:31px;line-height:31px}
 .calWrap .calDate strong {font-size:16px;color:#229bd3;letter-spacing:-1px}
 html.wide .calWrap .calDate strong {font-size:26px}
 .calWrap .calDate .btnPre {position:absolute;top:5px;left:17px;width:6px;height:12px;background-position:-130px 0}
 .calWrap .calDate .btnNext {position:absolute;top:5px;right:17px;width:6px;height:12px;background-position:-141px 0}
-html.wide .calWrap .calDate .btnPre {left:12px;width:10px;height:21px;background-position:-152px 0}
-html.wide .calWrap .calDate .btnNext {right:12px;width:10px;height:21px;background-position:-167px 0}
+html.wide .calWrap .calDate .btnPre {left:40px;width:10px;height:21px;background-position:-152px 0}
+html.wide .calWrap .calDate .btnNext {right:45px;width:10px;height:21px;background-position:-167px 0}
 .tblCal{width:100%;margin:0 auto;padding:0;border:0;border-bottom:1px solid #c6c6c6;border-spacing:0}
 .tblCal caption{margin:0 auto;padding:0 0 8px 3px;text-align:left}
 .tblCal caption strong{margin:0 5px;*margin:0}
 .tblCal tr{border:none}
 .tblCal th{width:14%;height:35px;border:none;border-right:1px solid #fff;border-top:1px solid #fff;font-weight:bold;font-size:14px}
-.tblCal td{width:14%;height:42px;border:none;border-right:1px solid #c6c6c6;border-top:1px solid #c6c6c6;text-align:center;background-color:#e8e8e8;color:#b2b2b2}
+html.wide .tblCal th{font-size:21px}
+.tblCal td{width:14%;height:42px;border:none;border-right:1px solid #c6c6c6;border-top:1px solid #c6c6c6;text-align:center;background-color:#e8e8e8;color:#b2b2b2;overflow:hidden}
+.tblCal.type2 td{height:52px}
+
 .tblCal th:first-child {border-left:1px solid #fff;}
 .tblCal td:first-child {border-left:1px solid #c6c6c6;}
-.tblCal td a{display:block;height:100%;width:100%;background-color:#fff;line-height:42px;color:#707070}
+.tblCal td a{display:block;height:100%;width:100%;background-color:#fff;line-height:42px;color:#707070;position:relative;}
+.tblCal.type2 td a{line-height:32px}
 .tblCal td a em {color:#707070;display:block;height:100%;width:100%;background:#fff url(../img/common/bu_cal_b.png) no-repeat center 32px;background-size:5px auto}
-.tblCal td a.today{color:#fff;font-weight:bold;background:#229bd3 url(../img/common/bu_cal_w.png) no-repeat center 32px;background-size:5px auto}
-html.wide .tblCal th {height:61px}
-html.wide .tblCal td {height:79px}
-html.wide .tblCal td a {line-height:79px}
-html.wide .tblCal td a em {background:#fff url(../img/common/bu_w_cal_b.png) no-repeat center 59px;background-size:10px auto}
-html.wide .tblCal td a.today{background:#229bd3 url(../img/common/bu_w_cal_w.png) no-repeat center 59px;background-size:10px auto}
+.tblCal td a.today{color:#ffffff;font-weight:bold;background:#229bd3}
+.tblCal td a.on{font-weight:bold;background:#fffdda url(../img/common/bu_cal_b.png) no-repeat center 32px;background-size:5px auto}
 
-.listSimpleCondition {margin:0 -10px}
-.listSimpleCondition li {height:48px;line-height:48px;background-color:#e8e8e8;border-top:1px solid #fff;border-bottom:1px solid #c6c6c6;padding:0 13px 0 5px}
-.listSimpleCondition li strong {display:inline-block;width:25px;color:#229bd3;font-size:16px;text-align:center}
-.listSimpleCondition li a {font-size:16px}
+.tblCal td a span{position:absolute;bottom:0;left:0;width:100%;line-height:21px;font-size:12px;padding-top:2px}
+.tblCal td a span.typeY{border-left:3px solid #ffdf49;background: #fff9db;}
+.tblCal td a span.typeG{border-left:3px solid #1bc6b0;background: #d1f4ef;}
+.tblCal td a span.typeR{border-left:3px solid #e96565;background: #fbe0e0;}
+.tblCal td a span.typeS{border-left:3px solid #33bbf9;background: #d6f1fe;}
+.tblCal td a span.typeO{border-left:3px solid #fda100;background: #ffeccc;}
+.tblCal td a span.typeB{border-left:3px solid #adadad;background: #efefef;}
+.tblCal td a span.typeY.s{border-left:0;background: #fff9db;}
+.tblCal td a span.typeG.s{border-left:0;background: #d1f4ef;}
+.tblCal td a span.typeR.s{border-left:0;background: #fbe0e0;}
+.tblCal td a span.typeS.s{border-left:0;background: #d6f1fe;}
+.tblCal td a span.typeO.s{border-left:0;background: #ffeccc;}
+.tblCal td a span.typeB.s{border-left:0;background: #efefef;}
+html.wide .tblCal td a span.typeY{border-left:5px solid #ffdf49;}
+html.wide .tblCal td a span.typeG{border-left:5px solid #1bc6b0;}
+html.wide .tblCal td a span.typeR{border-left:5px solid #e96565;}
+html.wide .tblCal td a span.typeS{border-left:5px solid #33bbf9;}
+html.wide .tblCal td a span.typeO{border-left:5px solid #fda100;}
+html.wide .tblCal td a span.typeB{border-left:5px solid #adadad;}
+
+
+html.wide .tblCal th {height:61px}
+html.wide .tblCal td {height:79px;font-size:25px}
+html.wide .tblCal td a {line-height:79px}
+html.wide .tblCal.type2 td a {line-height:62px}
+html.wide .tblCal td a em {background:#fff url(../img/common/bu_w_cal_b.png) no-repeat center 59px;background-size:10px auto}
+html.wide .tblCal td a.on{background:#fffdda url(../img/common/bu_w_cal_b.png) no-repeat center 59px;background-size:10px auto}
+html.wide .tblCal td a span{font-size:17px;line-height:34px;padding-top:0}
+html.wide .tblCal.type2 td{height:90px}
+
 
 
 /* 메일 */
-.mail .mailTitle{border-top:1px solid #c6c6c6;background:#d9dada;line-height:39px;color:#5b5b5b;padding-left:14px;font-weight:bold}
-.mail .mailAdress{margin:5px 0;}
-.mail .mailAdress li{line-height:24px}
-.mail .spr.file{margin-bottom:4px;margin-right:4px}
+.mailTitle{border-top:1px solid #c6c6c6;background:#d9dada;line-height:39px;color:#5b5b5b;padding-left:14px;font-weight:bold}
+.mailAdress{margin:10px 0;}
+.mailAdress li{line-height:25px}
+html.wide .mailAdress li{line-height:33px}
+.spr.file{margin-bottom:4px;margin-right:4px}
 
 
 /* listMail */
-.mailList {overflow:hidden;border-top:1px solid #c6c6c6;margin:0 -10px}
-.mailList li {border-top:1px solid #fff;border-bottom:1px solid #c6c6c6;background-color:#e8e8e8;padding-left:10px;}
-.mailList li a.link {display:block;height:53px;font-size:16px;position:relative;line-height:20px;color:#5b5b5b;padding-top:3px;padding-right:45px;}
-html.wide .mailList li a.link {height:58px;line-height:58px;padding-top:0px;padding-right:360px;}
+.mailList {overflow:hidden;border-top:1px solid #c6c6c6;margin:0 0px}
+html.wide .mailList{margin:0 -10px}
+.mailList li {border-top:1px solid #fff;border-bottom:1px solid #c6c6c6;padding-left:10px;background-color:#f5f4f5}
+.mailList li:nth-child(2n+1){background-color:#fff;}
+.mailList li a.link {display:block;height:58px;font-size:16px;position:relative;line-height:20px;color:#5b5b5b;padding-right:45px;}
+html.wide .mailList li a.link {height:87px;font-size:20px;}
 .mailList li a div{display:inline-block}
-.mailList li a .mailListTitle{width:100%;}
-.mailList li a .mailListInfo{display:block;font-size:13px;margin-top:3px}
-html.wide .mailList li a .mailListInfo{display:inline-block;position:absolute;top:0;right:40px;width:320px;}
+.mailList li a .mailListTitle{width:100%;margin-top:7px;}
+html.wide .mailList li a .mailListTitle{margin-top:17px;}
+.mailList li a .mailListInfo{display:block;font-size:13px;margin-top:3px;color:#707070}
+html.wide .mailList li a .mailListInfo{font-size:16px;margin-top:10px}
 .mailList li a .mailListInfo span{margin-left:7px;margin-right:5px}
 .mailList li a .mailListInfo span:first-child{margin-left:0;}
-.mailList li a div.spr.listArr {position:absolute;top:25px;right:14px;}
+.mailList li a .spr.listArr {position:absolute;top:22px;right:14px;}
+html.wide .mailList li a .spr.listArr {top:38px}
+.mailList li a .spr.new {position:absolute;top:8px;right:32px;}
+html.wide .mailList li a .spr.new {top:18px;}
 .mailList li a span.spr{margin-bottom:4px}
-html.wide .mailList li a span.spr{margin-bottom:2px}
+
 
 .inputWrap {line-height:0}
 .inputWrap input[type=text]{width:100%;height:39px;border:0;}
+html.wide .inputWrap input[type=text]{height:49px;}
 .inputWrap textarea{width:100%;height:auto;border:0;}
-.inputInfo {position:absolute;top:0;left:10px;}
+.inputInfo {position:absolute;top:0;left:10px;font-size:16px}
 
 .listMoreWrap{background: #5b5b5b;text-align:center;margin:0 -10px;position:relative;padding:9px 0;line-height:20px}
+html.wide .listMoreWrap{padding:14px 0}
 .listMoreWrap a{display:block;}
 .listMoreWrap .listMore{color:#fff;font-size:16px;font-weight:bold}
+html.wide .listMoreWrap .listMore{font-size:21px;}
 .listMoreWrap .listCount{color:#229bd3;font-size:12px;display:block}
+html.wide .listMoreWrap .listCount{font-size:17px;margin-top:5px}
 .listMoreWrap .listTop{position:absolute;top:0;right:0;font-size:0;}
 
 /*treeWrap*/
-.treeWrap {background-color:#fff;margin:0 -10px;border-top:1px solid #d2d2d2;border-bottom:1px solid #d2d2d2;padding:10px}
-#treeList {}
-#treeList, #treeList * {margin:0;padding:0;border:none;overflow:hidden;text-decoration:none}
+.treeWrap {background-color:#fff;border-top:1px solid #d2d2d2;border-bottom:1px solid #d2d2d2;padding:10px;overflow:hidden}
+.treeWrap:after {clear:both;content:'';display:block}
+html.wide .treeWrap{margin:0 -10px;}
 #treeList a:hover {text-decoration:underline;}
-#treeList ul {padding:0 0 0 0px; zoom:1;}
-#treeList li {position:relative;background:url(../img/common/bg_tree.png) no-repeat 7px top;background-size:17px auto;padding:0 0 0 23px;font-size:14px;font-weight:bold;line-height:30px;zoom:1;}
-#treeList li .treeRContWrap {display:block;position:absolute;right:0;top:6px;width:60px;height:16px;line-height:0}
-#treeList li .treeRContWrap a {float:left;display:block;background:url(../img/common/spr_com.png) no-repeat;background-size:500px auto;font-size:0;line-height:0}
-#treeList li .treeRContWrap span.divider {float:left;display:block;width:12px;height:16px;border-right:1px solid #e5e5e5;margin-right:12px;font-size:0}
-#treeList li .treeRContWrap a.btnPush {width:15px;height:13px;background-position:-140px -70px;margin-top:1.5px}
-#treeList li .treeRContWrap a.btnList {width:6px;height:12px;background-position:-57px 0;margin-top:1.5px}
+#treeList ul {padding:0 0 0 0px; zoom:1;overflow:hidden}
+#treeList li {position:relative;background:url(../img/common/bg_tree.png) no-repeat 7px top;background-size:17px auto;padding:0 0 0 23px;font-size:14px;font-weight:bold;line-height:32px;zoom:1;overflow:hidden}
+html.wide #treeList li{font-size:16px;}
+#treeList li .treeRContWrap {display:block;position:absolute;right:0;top:0px;height:24px;line-height:0;padding:0 2px}
+#treeList li .treeRContWrap a.btnList {vertical-align:top;width:6px;height:12px;margin:8px 0 0 15px;background:url(../img/common/spr_com.png) no-repeat -57px 0;background-size:500px auto;font-size:0;line-height:0;display:inline-block;}
 #treeList li.end {background:url(../img/common/bg_tree_end.png) no-repeat 7px top;background-size:17px 16px !important;}
 #treeList li a.treeCtrl {position:absolute;left:0;top:7px;display:block;width:15px;height:15px;padding-right:5px;background:#fff}
 #treeList > li:first-child > .treeCtrl {padding-top:7px;top:0}
@@ -326,15 +527,15 @@ html.wide .mailList li a span.spr{margin-bottom:2px}
 
 /* 일정관리 */
 .schedule {margin:0 -10px}
-.schedule li {position:relative;border-top:1px solid #fff;border-bottom:1px solid #c6c6c6;background-color:#e8e8e8;}
-.schedule li a.link {display:block;padding:0 10px;font-size:16px;position:relative;line-height:48px;color:#5b5b5b;}
-.schedule li .day {display:inline-block;width:34px;margin-right:6px;color:#229bd3;font-weight:bold;text-align:center}
-.schedule li .day:after {float:right;display:inline-block;content:'일';font-size:12px;line-height:44px;padding-top:3px;font-weight:normal;color:#707070}
-.schedule li .spr {position:absolute;right:16px;top:20px;}
+.schedule li {position:relative;border-top:1px solid #fff;border-bottom:1px solid #c6c6c6;background-color:#f5f4f5;}
+.schedule li:nth-child(2n+1){background-color:#fff;}
+.schedule li a.link {display:block;padding:0 40px 0 65px;font-size:16px;position:relative;line-height:48px;color:#5b5b5b;}
+.schedule li .day {line-height:30px;display:inline-block;width:40px;color:#229bd3;font-weight:bold;text-align:center;position:absolute;top:0px;left:10px}
+.schedule li .day:after {float:right;display:inline-block;content:'일';font-size:12px;padding:0px 0 0 4px;font-weight:normal;color:#707070}
+.schedule li .spr {position:absolute;right:16px;top:10px;}
+.schedule li .data{line-height:30px;margin:11px 0;}
+html.wide .schedule li .data{font-size:21px}
 
-/* 일정 상세조회 */
-.nopd #contWrap{padding:10px 0 !important;}
-.nopd .titWrap {padding:0 10px;}
 
 .tabWrap {height:450px;overflow-y:auto}
 .tab {position:relative;border-top:1px solid #c6c6c6;}
@@ -350,25 +551,32 @@ html.wide .mailList li a span.spr{margin-bottom:2px}
 .tabCont td .spr {margin-right:3px;vertical-align:middle}
 
 /* 직원검색 */
-.peopleList {border-top:1px solid #c6c6c6;margin:0 -10px;}
-.peopleList li {line-height:23px;border-top:1px solid #fff;border-bottom:1px solid #c6c6c6;background-color:#e8e8e8;text-align:center}
-.peopleList li a {height:48px;display:block;font-size:16px;position:relative;padding:10px 20px 0 60px;line-height:20px;background-color:#e8e8e8;}
-.peopleList li .link div.spr.listArr {position:absolute;top:25px;right:14px;}
+.peopleList {border-top:1px solid #c6c6c6;}
+html.wide .peopleList{margin:0 -10px;}
+.peopleList li {line-height:23px;border-top:1px solid #fff;border-bottom:1px solid #c6c6c6;text-align:center;background-color:#f5f4f5}
+.peopleList li:nth-child(2n+1) {background-color:#fff}
+.peopleList li .link {height:48px;display:block;font-size:16px;position:relative;padding:10px 20px 0 60px;line-height:20px;}
+html.wide .peopleList li .link{height:59px;font-size:21px;line-height:26px}
+.peopleList li .spr.listArr {position:absolute;top:25px;right:14px;}
+html.wide .peopleList li .spr.listArr {top:28px;}
+
+
 .peopleList li .peopleInfo{text-align:left;}
 .peopleList li .link .peopleImg{position:absolute;top:9px;left:10px;}
+html.wide .peopleList li .link .peopleImg{top:15px;}
 
-.peopleTitle {border-top:1px solid #c6c6c6;border-bottom:1px solid #c6c6c6;background: #ffffff;padding:29px 20px 32px 125px;position:relative;line-height:20px;font-size:14px}
+.peopleTitle {border-top:1px solid #c6c6c6;border-bottom:1px solid #c6c6c6;background: #fff;padding:29px 20px 32px 125px;position:relative;line-height:20px;font-size:14px}
+html.wide .peopleTitle{font-size:16px;line-height:24px;padding-top:23px}
 .peopleTitle .photo{position:absolute;top:17px;left:13px;border:1px solid #c6c6c6;height:97px;width:75px}
 .peopleTitle span.th{font-weight:bold;width:50px;display:inline-block;}
 .peopleTitle .infoName{border-bottom:1px solid #c6c6c6;padding-bottom:5px;margin-bottom:5px;}
-.peopleTitle .infoName
-.peopleTitle .infoNum{}
-.peopleTitle .infoGroup{}
 
-.peopleView {overflow:hidden;line-height:28px;border-top:1px solid #fff;background-color:#e8e8e8;text-align:center;height:350px;position:relative;}
+.peopleView {overflow:hidden;line-height:28px;border-top:1px solid #fff;text-align:center;height:345px;position:relative;}
+html.wide .peopleView{height:420px;}
 .peopleView > ul {border-bottom:1px solid #c6c6c6;}
-.peopleView > ul > li{float:left;width:50%;border-bottom:2px solid #e8e6e3;background: #ffffff;}
+.peopleView > ul > li{float:left;width:50%;border-bottom:2px solid #e8e6e3;background: #fff;}
 .peopleView > ul > li > a{display:block;height:25px;margin:10px 0;font-weight:bold;font-size:18px;color:#b2b2b2;letter-spacing:-1px;}
+html.wide .peopleView > ul > li > a{font-size:21px;}
 .peopleView > ul > li.on > a {color:#229bd3}
 .peopleView > ul > li:first-child > a {border-right:1px solid #c6c6c6}
 .peopleView > ul > li.on {border-color:#33bbf9}
@@ -378,30 +586,6 @@ html.wide .mailList li a span.spr{margin-bottom:2px}
 .peopleView li.on table.tblType{visibility:visible;}
 .peopleView  td{text-align:left}
 .peopleView > ul:after {display:block;clear:both;content:''}
-.peopleView .tblType .iconWrap{position:absolute;top:0px;right:10px;}
-.peopleView .tblType .blankLine{color:#c6c6c6;padding:0px 5px;display:inline-block;}
-
-/* JF main */
-/* .leaveCount {position:relative;padding:15px 13px;border:1px solid #c6c6c6;border-bottom:0 none;background-color:#fff;font-weight:bold;letter-spacing:-1px}
-.leaveCount:after {display:block;clear:both;content:''}
-.leaveCount dl {float:left}
-.leaveCount dt {margin-bottom:10px;color:#5b5b5b}
-.leaveCount dd {display:inline-block;font-size:40px;line-height:1;color:#8d8d8d;}
-.leaveCount dd.save {color:#229bd3;}
-.leaveCount dd.save:after {content:'';display:inline-block;width:1px;height:23px;margin:0 8px 4px;background-color:#c6c6c6;}
-.leaveCount dd.all:after {content:'days';display:inline-block;font-size:14px;vertical-align:top}
-.leaveCount a {float:right;display:block;width:30%;min-width:86px;border:1px solid #e4e4e4;background-color:#f6f6f6;}
-.leaveCount a > span {display:block;padding:12px 10px 12px 13px;}
-.leaveCount a span .spr {float:right;margin-top:3px;} */
-.leaveCount {position:relative;padding:15px 13px;font-weight:bold;letter-spacing:-1px}
-.leaveCount dl:after {display:block;clear:both;content:''}
-.leaveCount dt, .leaveCount dd {display:inline-block;float:left;}
-.leaveCount dt {margin-right:25px;margin-top:10px;color:#5b5b5b}
-.leaveCount dd {font-size:40px;line-height:1;color:#8d8d8d;}
-.leaveCount .save {color:#229bd3;}
-.leaveCount .save:after {content:'';display:inline-block;width:1px;height:23px;margin:0 8px 4px;background-color:#c6c6c6;}
-.leaveCount .all:after {content:'days';display:inline-block;font-size:14px;vertical-align:top}
-
 
 .boardType1 {border:1px solid #c6c6c6;background-color:#fff}
 .boardType1 .boardTit {background:#2d4e6d;font-weight:bold;line-height:48px;color:#fff}
@@ -416,59 +600,137 @@ html.wide .mailList li a span.spr{margin-bottom:2px}
 .boardType1 li a p {width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:14px;}
 .boardType1 li a time {font-size:13px;}
 
-html.wide .jf {position:relative}
-html.wide .jf .quickLink {position:absolute;right:10px;top:257px;width:175px;}
-html.wide .jf .quickLink li {width:100%;height:124px;text-align:right}
-html.wide .jf .quickLink li + li {margin:-1px 0 0}
-html.wide .jf .quickLink li a:after {content:'';display:inline-block;width:15px;}
-html.wide .jf .quickLink li .spr {margin:10px 15px 20px;}
-html.wide .leaveCount .save:after {margin:0 8px 10px 14px;}
-html.wide .leaveCount .all:after {font-size:27px;}
-html.wide .leaveCount {min-height:79px;padding:22px 24px 22px 13px;margin-top:10px;}
-html.wide .leaveCount,html.wide .boardType1 {margin-right:185px;}
-html.wide .leaveCount dt {margin-top:20px;font-size:30px;}
-html.wide .leaveCount dd {float:right;font-size:76px}
-html.wide .leaveCount dd span {display:inline-block}
-/* html.wide .leaveCount a {width:205px;margin-top:32px}
-html.wide .leaveCount a > span {padding:20px 10px 20px 13px} */
-html.wide .boardType1 .boardTit {height:50px;}
-html.wide .boardType1 li {height:38px;}
 
-/* 이용내역신청 */
-.usedHistory .divider {margin:0 -3px}
-.usedHistory .btn {margin:0; padding:0 5px;}
-.usedHistory select {max-width:120px;}
-html.wide .usedHistory {text-align:right}
-html.wide .usedHistory .btn {width:87px}
 
 /* kowic 메인 */
+.gasCastImg{width:256px;height:136px;display:inline-block;background:url('../img/common/spr_kowic.png') no-repeat;background-size:300px auto;text-align:center;font-size:0;margin-bottom:20px;}
+.gasCastImg.type1 , html.narrow .gasCastWrap .gasCastImg.type1{background-position:0 0;}
+.gasCastImg.type2 , html.narrow .gasCastWrap .gasCastImg.type2{background-position:0 -140px;}
+.gasCastImg.type3 , html.narrow .gasCastWrap .gasCastImg.type3{background-position:0 -280px;}
+.gasCastImg.type4 , html.narrow .gasCastWrap .gasCastImg.type4{background-position:0 -420px;}
+.gasCastImg.type5 , html.narrow .gasCastWrap .gasCastImg.type5{background-position:0 -565px;}
+html.narrow .gasCastImg{width:135px;height:71px;display:inline-block;background:url('../img/common/spr_kowic_m.png') no-repeat;background-size:150px auto;text-align:center;font-size:0;margin-bottom:20px;}
+html.narrow .gasCastImg.type1{background-position:0 0;}
+html.narrow .gasCastImg.type2{background-position:0 -75px;}
+html.narrow .gasCastImg.type3{background-position:0 -150px;}
+html.narrow .gasCastImg.type4{background-position:0 -225px;}
+html.narrow .gasCastImg.type5{background-position:0 -300px;}
+html.narrow .gasCastWrap .gasCastImg {width:256px;height:136px;display:inline-block;background:url('../img/common/spr_kowic_m2.png') no-repeat;background-size:300px auto;text-align:center;font-size:0;margin-bottom:20px;}
 .kowicMain:after {display:block;content:'';width:100%;clear:both;}
-.kowicMain .boxWrap{border:1px solid #c6c6c6;margin-top:10px;width:99.7%;}
-.kowicMain .boxWrap.type2{width:48.8%;display:inline-block;float:left}
-.kowicMain .boxWrap.type3{width:48.6%;display:inline-block;float:right}
-html.narrow .kowicMain .boxWrap.type2,html.narrow .kowicMain .boxWrap.type3{display:block;float:none;margin-left:0;width:100%}
+.kowicMain .boxWrap{border:1px solid #c6c6c6;margin-top:10px;width:99.7%;font-size:30px;background:#fff}
+html.narrow .kowicMain .boxWrap {margin-top:0}
+.kowicMain .boxWrap.type2{width:48.8%;display:inline-block;float:left;font-size:35px}
+.kowicMain .boxWrap.type3{width:48.6%;display:inline-block;float:right;font-size:35px}
 .kowicMain .boxWrap .title{height:48px;line-height:48px;color:#fff;background:#2d4e6d;font-size:18px;font-weight:bold;padding-left:10px}
 .kowicMain .boxWrap .box{padding:7px 10px;font-weight:bold;letter-spacing:-3px}
-.kowicMain .boxWrap .box .unit{font-size:15px;vertical-align:top;display:inline-block;margin-top:6px;margin-left:5px;font-weight:bold}
-.kowicMain .boxWrap .box .th{color:#707070;font-size:21px;vertical-align:top;margin-top:6px;display:inline-block;width:85px}
+.kowicMain .boxWrap .box .unit{font-size:15px;vertical-align:top;display:inline-block;margin-top:5px;margin-left:5px;font-weight:bold}
+.kowicMain .boxWrap .box .th{color:#707070;font-size:21px;vertical-align:top;margin-top:5px;display:inline-block;width:75px;letter-spacing:0;padding-left:10px}
 .kowicMain .boxWrap .box .slice{font-weight:normal;font-size:21px;padding:0;margin:0;vertical-align:middle;}
-html.wide .kowicMain.quickLink li{width:33.3%;}
+.kowicMain .boxWrap .box .stateImg{width:55%;display:inline-block;vertical-align:top}
+.kowicMain .boxWrap .box .stateUnit{width:42%;display:inline-block;margin-top:30px;}
+.kowicMain .boxWrap .box .stateUnit li{margin-bottom:7px}
 .kowicMain.quickLink li{width:33.3%;margin-left:-1px;}
 .kowicMain.quickLink li:first-child{margin-left:0px;}
-
+html.narrow .kowicMain .boxWrap.type2,
+html.narrow .kowicMain .boxWrap.type3{display:block;float:none;margin-left:0;width:100%;font-size:33px}
+html.narrow .kowicMain .boxWrap .title{font-size:14px}
+html.narrow .kowicMain .boxWrap .box .unit{font-size:11px;}
+html.narrow .kowicMain .boxWrap .box .th{font-size:14px;padding-left:0;width:55px;}
+html.narrow .kowicMain .boxWrap .box .stateImg{width:50.5%;}
+html.narrow .kowicMain .boxWrap .box .stateUnit{width:47.5%;margin-top:10px;}
+html.wide .kowicMain.quickLink li{width:33.3%;}
+html.narrow .kowicMain.quickLink li a{font-size:13px}
+html.narrow .kowicMain .boxWrap{font-size:21px}
 
 /* tab */
 div.tc-panel {display:none;}
 div.tc-panel.tc-selected{display:block}
+div.tc-panel.tc-selected table {display:inline-table}
 
 
 /* kowic 가스예보 */
-.gasTab li{width:33%;float:left;margin-top:20px;line-height:47px;border-top:1px solid #c6c6c6;border-top:1px solid #c6c6c6;background: #ffffff;text-align:center;font-weight:bold}
-.gasTab li.gasTabBg{background:#fff url('../img/common/gasTabBg.gif') no-repeat center center;width:2px;display:inline-block;}
-.gasTab li a{padding-bottom:0px;width:100%;display:inline-block;border-bottom:3px solid #e8e6e3;}
-.gasTab li.tc-selected a{border-bottom:3px solid #229bd3;}
+.gasTab li{width:33.3%;float:left;margin-top:20px;border-top:1px solid #c6c6c6;border-top:1px solid #c6c6c6;text-align:center;font-weight:bold;background:#fff url('../img/common/gasTabBg.gif') no-repeat left center;}
+.gasTab li:first-child{background: #fff;}
+.gasTab li a{padding:17px 0 12px 0 ;width:100%;display:inline-block;border-bottom:3px solid #e8e6e3;letter-spacing:0px;font-size:24px;}
+html.narrow .gasTab li a{padding:8px 0 0 0px;width:100%;display:inline-block;border-bottom:3px solid #e8e6e3;height:49px;letter-spacing:0px;line-height:22px;font-size:16px}
+html.narrow .gasTab li a span{display:block;}
+html.narrow .gasTab li.tc-selected a ,.gasTab li.tc-selected a{border-bottom:3px solid #229bd3;color:#229bd3}
 .gasTab:after{content:'';clear:both;width:100%;display:block;}
-html.narrow .castStateWrap{overflow:auto;}
-html.narrow .castStateWrap .tc-panel{width:700px}
+html.narrow .castStateWrap{overflow-x:auto;width:100%}
+html.narrow .castStateWrap .tc-panel{}
 .castTitle {display:block;border-top:1px solid #c6c6c6;background:#d9dada;line-height:39px;color:#5b5b5b;padding-left:10px;text-align:center}
+
+.gasCastWrap .castL,.gasCastWrap .castR {display:block;width:100%;text-align:center}
+html.wide .gasCastWrap .castL,html.wide .gasCastWrap .castR{width:49%;display:inline-block;vertical-align:top;}
+html.wide .gasCastWrap .castL{float:left}
+html.wide .gasCastWrap .castR{float:right}
+html.wide .gasCastWrap:after{content:'';width:100%;display:block;clear:both;}
+html.wide .gasCastWrap .castL{text-align:center;background:#fff;border:1px solid #c6c6c6;padding:16px 0}
+.panelCon {overflow:hidden}
+
+.castMapWrap{position:relative;text-align:center;}
+.castMapWrap .unit{position:absolute;right:0;top:10px;color:#2d4e6d;font-size:14px}
+.castMap {background:url('../img/common/bg_kowic_map_m.png') no-repeat center;background-size:200px auto;display:inline-block;width:300px;height:263px;position:relative;margin-top:40px}
+.castMap .locationR , .castMap .locationL {position:absolute;display:inline-block;}
+.castMap .locationR strong,  .castMap .locationL strong{height:28px;color:#fff;line-height:28px;font-size:20px;display:inline-block;vertical-align:top}
+.castMap .locationR  strong{background:url('../img/common/bg_kowic_btn_m.png') no-repeat;background-size:100px auto;padding:0 6px 0 5px;}
+.castMap .locationL  strong{background:url('../img/common/bg_kowic_btn2_m.png') no-repeat;background-size:100px auto;padding:0 0px 0 10px;}
+.locationL.map1 {top:26px;left:180px;}/*춘천*/
+.locationR.map2 {top:30px;right:200px;} /*교화*/
+.locationR.map3 {top:85px;right:206px;} /*군산*/
+.locationR.map4 {top:194px;right:217px;}   /*목포*/
+.locationL.map5 {top:152px;left:225px;}   /*울산*/
+.locationL.map6 {top:122px;left:164px;}   /*장림*/
+.locationR.map7 {top:159px;right:174px;}   /*순천*/
+.castMap .endR{display:inline-block;width:6px;background:url('../img/common/bg_kowic_btn_m.png') no-repeat right;background-size:100px auto;height:28px}
+.castMap .endL{display:inline-block;width:5px;background:url('../img/common/bg_kowic_btn2_m.png') no-repeat right;background-size:100px auto;height:28px}
+
+html.wide .castMap{background:url('../img/common/bg_kowic_map.png') no-repeat center;background-size:350px auto;display:inline-block;width:440px;height:450px;position:relative;margin-top:40px}
+html.wide .locationL.map1 {top:60px;left:269px;}/*춘천*/
+html.wide .locationR.map2 {top:80px;right:307px;} /*교화*/
+html.wide .locationR.map3 {top:174px;right:319px;} /*군산*/
+html.wide .locationR.map4 {top:347px;right:338px;}   /*목포*/
+html.wide .locationL.map5 {top:279px;left:342px;}   /*울산*/
+html.wide .locationL.map6 {top:237px;left:237px;}   /*장림*/
+html.wide .locationR.map7 {top:304px;right:260px;}   /*순천*/
+html.wide .castMap .locationR strong, html.wide .castMap .locationL strong{height:34px;line-height:32px;font-size:25px;}
+html.wide .castMap .locationR  strong{background:url('../img/common/bg_kowic_btn.png') no-repeat;background-size:150px auto;padding:0 3px 0 9px;}
+html.wide .castMap .locationL  strong{background:url('../img/common/bg_kowic_btn2.png') no-repeat;background-size:150px auto;padding:0 5px 0 15px;}
+html.wide .castMap .endR{width:9px;background:url('../img/common/bg_kowic_btn.png') no-repeat right;background-size:150px auto;height:33px}
+html.wide .castMap .endL{width:3px;background:url('../img/common/bg_kowic_btn2.png') no-repeat right;background-size:150px auto;height:33px}
+
+
+/* officeList */
+.outerLink{border:1px solid #c6c6c6;height:300px}
+.officeList{border-top:1px solid #c6c6c6;}
+.officeList.type2{margin-top:20px}
+html.wide .officeList{margin:0 -10px}
+html.wide .officeList.type2{margin-top:20px}
+.officeList li {position:relative;border-top:1px solid #fff;height:38px;border-bottom:1px solid #c6c6c6;padding-left:10px;background: #f5f4f5;}
+.officeList li:nth-child(2n+1){background:#fff;}
+html.wide .officeList li{height:49px}
+.officeList.type2 li{height:49px}
+.officeList li.bg{background-color:#f5f4f5;}
+.officeList li .link {display:block;font-size:16px;position:relative;line-height:39px;color:#5b5b5b;margin-right:90px}
+html.wide .officeList li .link {font-size:21px;line-height:49px;}
+.officeList.type2 li .link{line-height:49px}
+.officeList li a div.listArr {position:absolute;top:12px;right:14px;}
+html.wide .officeList li a div.listArr {top:16px;}
+.officeList.type2 li a div.listArr{top:18px}
+.officeList.type2 .ellipsis{text-align:center;}
+.officeList .officeRContWrap {display:block;position:absolute;right:14px;top:4px;height:24px;line-height:0;padding:0 2px}
+html.wide .officeList .officeRContWrap {top:9px}
+.officeList .officeRContWrap a.btnList {vertical-align:top;width:6px;height:12px;margin:8px 0 0 15px;background:url(../img/common/spr_com.png) no-repeat -57px 0;background-size:500px auto;font-size:0;line-height:0;display:inline-block;}
+
+
+/* list Checkbox */
+.checkWrap{position:absolute;top:18px;right:14px}
+.checkWrap input { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
+.checkWrap input[type=checkbox] + label { position: relative; display: inline-block;height:24px; line-height: 20px; background: url(../img/common/spr_com.png) no-repeat -180px -160px; cursor: pointer;background-size:500px auto;width:30px}
+.checkWrap input[type=checkbox] + label.on { background-position:-150px -160px; }
+.officeList .checkWrap{top:5px;}
+.officeList .checkWrap .btn2{vertical-align:top;height:24px;line-height:23px;padding:0 5px}
+html.wide .officeList .checkWrap .btn2{height:35px;line-height:36px;padding:0 10px}
+
+
 

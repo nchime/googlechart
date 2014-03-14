@@ -1,0 +1,35 @@
+<?php include "$_SERVER[DOCUMENT_ROOT]/com/layout/layout_1.html"; ?>
+<link rel="stylesheet" type="text/css" href="/css/guide.css"/>
+<style type="text/css">
+    input { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
+    input[type=radio] + label { position: relative; display: inline-block; padding: 0 15px 0 25px; height: 20px; line-height: 20px; background: url(/img/common/ico_radio_off.png) no-repeat; cursor: pointer; }
+    input[type=radio] + label.on { background-image: url(/img/common/ico_radio_on.png); }
+    input[type=checkbox] + label { position: relative; display: inline-block; padding: 0 15px 0 25px; height: 20px; line-height: 20px; background: url(/img/common/btn_check.gif) no-repeat; cursor: pointer; }
+    input[type=checkbox] + label.on { background-image: url(/img/common/btn_checked.gif); }
+</style>
+<!-- content -->
+<h1 class="gh1">Kogas UI</h1>
+<h2 class="gh2">Input Checker</h2>
+<div class="guideArea">
+    <h3>Checkbox</h3>
+    <input type="checkbox" id="check2_s1"><label for="check2_s1" class="jsChecker">농산물</label>
+    <input type="checkbox" id="check2_s2"><label for="check2_s2" class="jsChecker">수산물</label>
+    <input type="checkbox" id="check2_s3"><label for="check2_s3" class="jsChecker">축산물</label>
+    <input type="checkbox" id="check2_s4"><label for="check2_s4" class="jsChecker">건강식품</label>
+    <input type="checkbox" id="check2_s5"><label for="check2_s5" class="jsChecker">간식류</label>
+    <input type="checkbox" id="check2_s6"><label for="check2_s6" class="jsChecker">반찬</label>
+    <input type="checkbox" id="check2_s7"><label for="check2_s7" class="jsChecker">생활용품</label>
+    <input type="checkbox" id="check2_s8"><label for="check2_s8" class="jsChecker">화장품</label>
+    <input type="checkbox" id="check2_s9"><label for="check2_s9" class="jsChecker">유아동</label><br />
+
+
+
+    <h3>Radio</h3>
+    <input type="radio" id="radio1" name="radio" checked="checked" />
+    <label for="radio1" class="jsChecker">Radio1</label>
+    <input type="radio" id="radio2" name="radio" />
+    <label for="radio2" class="jsChecker">Radio2</label>
+
+</div>
+<!-- //content -->
+<?php include "$_SERVER[DOCUMENT_ROOT]/com/layout/layout_2.html"; ?>
