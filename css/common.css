@@ -515,7 +515,7 @@ html.wide .treeWrap{margin:0 -10px;}
 #treeList a:hover {text-decoration:underline;}
 #treeList ul {padding:0 0 0 0px; zoom:1;overflow:hidden}
 #treeList li {position:relative;background:url(../img/common/bg_tree.png) no-repeat 7px top;background-size:17px auto;padding:0 0 0 23px;font-size:14px;font-weight:bold;line-height:32px;zoom:1;overflow:hidden}
-html.wide #treeList li{font-size:16px;}
+html.wide #treeList li{font-size:18px;}
 #treeList li .treeRContWrap {display:block;position:absolute;right:0;top:0px;height:24px;line-height:0;padding:0 2px}
 #treeList li .treeRContWrap a.btnList {vertical-align:top;width:6px;height:12px;margin:8px 0 0 15px;background:url(../img/common/spr_com.png) no-repeat -57px 0;background-size:500px auto;font-size:0;line-height:0;display:inline-block;}
 #treeList li.end {background:url(../img/common/bg_tree_end.png) no-repeat 7px top;background-size:17px 16px !important;}

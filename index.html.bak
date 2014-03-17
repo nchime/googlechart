@@ -1,0 +1,3 @@
+<script>
+	location.href=encodeURI("./html/SWMO_EB_002.html?title=전사알림방"); 
+</script> 

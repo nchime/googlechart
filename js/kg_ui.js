@@ -190,8 +190,7 @@
                 var $contWrapH = $contWrap.outerHeight();
                 var $footer = $('#footer');
                 var $footerH = $footer.outerHeight(); //90
-                
-                $header.css({ minWidth: Class.winWidth });
+                $header.css({ minWidth: Class.winWidth, width: Class.winWidth });
                 $content.css({ minHeight: $wrapH - $headerH - 62 , height: $contWrapH + 39 });
                 
                 if (!Class.isWide) {
