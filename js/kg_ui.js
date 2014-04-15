@@ -189,18 +189,41 @@
                 var $contWrap = $('#contWrap');
                 var $contWrapH = $contWrap.outerHeight();
                 var $footer = $('#footer');
-                var $footerH = $footer.outerHeight(); //90
+                var $footerH = $footer.outerHeight();
+                //var $mailListWrap = $wrap.find('.mailListWrap');
+                //var $titWrapH = $wrap.find('.titWrap').outerHeight();
+                //var $srchWrapH = $wrap.find('.srchWrap').outerHeight();
+                //var $listMoreWrapH = $wrap.find('.listMoreWrap').outerHeight();
+
                 $header.css({ minWidth: Class.winWidth, width: Class.winWidth });
-                $content.css({ minHeight: $wrapH - $headerH - 62 , height: $contWrapH + 39 });
+
+                //$content height
+                if ($content.hasClass('intro')) {
+                    $content.css({ minHeight: $wrapH, height: $wrapH })
+                    $contWrap.find('.introTitle').css({ marginTop: ($wrapH - 300) / 2});
+                } else {
+                    $content.css({ minHeight: $wrapH - $headerH - 62, height: $contWrapH + 39 });
+                }
                 
+                //$snb height, $content width
                 if (!Class.isWide) {
                     $snb.css({ height: '100%' , minHeight: $wrapH - $headerH });
                     $content.css({ minWidth: Class.winWidth, width: Class.winWidth});
                 } else {
                     if (!Class.isMobile) {
-                        $content.css({ minWidth: Class.winWidth - 300, width: Class.winWidth - 300});
+                        if ($content.hasClass('intro')) {
+                            $content.css({ minWidth: Class.winWidth, width: Class.winWidth });
+                        } else {
+                            $content.css({ minWidth: Class.winWidth - 300, width: Class.winWidth - 300 });
+                        }
+
                     } else {
-                        $content.css({ minWidth: Class.winWidth - 278, width: Class.winWidth - 278});
+                        if ($content.hasClass('intro')) {
+                            $content.css({ minWidth: Class.winWidth, width: Class.winWidth });
+                        } else {
+                            $content.css({ minWidth: Class.winWidth - 278, width: Class.winWidth - 278 });
+                        }
+                        
                     }
                     
                     if ($contWrapH >= $wrapH - $headerH - $footerH -39 ) {
@@ -214,9 +237,9 @@
                 if ($('.quickLink').length > 0) {
                     var $quickLinkli = $('.quickLink li');
                     if (!Class.isWide) {
-                        $quickLinkli.css({ width: ($contWrap.outerWidth() - 22) / 3 });
+                        $quickLinkli.css({ width: ($contWrap.outerWidth() - 16) / 2 });
                     } else {
-                        $quickLinkli.css({ width: ($contWrap.outerWidth() - 26) / 2 });
+                        $quickLinkli.css({ width: ($contWrap.outerWidth() - 32) / 3 });
                     }
                 }
 				//모바일 그룹웨어 버튼 KW_002
@@ -225,10 +248,14 @@
 					if (!Class.isWide) {
 						$quickLinkli2.css({ width: ($contWrap.outerWidth() - 16) / 2 });
 					} else {
-						$quickLinkli2.css({ width: ($contWrap.outerWidth() - 26) / 2 });
+						$quickLinkli2.css({ width: ($contWrap.outerWidth() - 35) / 2 });
 					}
 
 				}
+                //메일 리스트
+				//if ($mailListWrap.length > 0) {
+				//    $mailListWrap.css({ height: Class.winHeight - $footerH - $headerH - $titWrapH - $srchWrapH - $listMoreWrapH })
+				//}
             });
         }
         /* tab 세팅 */, initTabOnce: function initTabOnce() {
@@ -248,7 +275,18 @@
 				    $(document).trigger('setLayout');
 				    e.stopPropagation();
 				    e.preventDefault();
-				});
+				})
+            .on('setTabLayout', function (e) {
+                var $wrap = $('#wrap');
+                var $tabWrap = $wrap.find('.tabWrap');
+                var $tabContH = $tabWrap.find('li.on .tabCont table').outerHeight();
+
+                if ($tabWrap.length > 0) {
+                    $tabWrap.css({ height: $tabContH + 59 });
+                    $(document).trigger('setLayout');
+                }
+            });
+
         }
         /*input 세팅*/, initCheckLabelOnce: function initCheckLabelOnce() {
             $(document)
@@ -294,7 +332,7 @@
 				    $(document).trigger('setLayout');
 				    //$('section.preview').trigger('resizeImgBoxInner');
 				})
-				.trigger('resize');
+				.trigger('resize')
         }
         /* kgUI 초기화 */, init: function () {
             for (var func in Class) {
@@ -325,14 +363,15 @@
 
 //select Control
 $.fn.jsSelectCtrl = function () {
-    var $wrapper = $(this);
+    var $wrap = $('#wrap');
 
-    $wrapper.find('.jsTab li').click(function () {
+    $wrap.find('.jsTab li').click(function () {
         $('.jsTab li').removeClass('on');
         $(this).addClass('on');
         $(document).trigger('setLayout');
+        $(document).trigger('setTabLayout');
     });
-
+    
 };
 
 
@@ -341,4 +380,5 @@ $.fn.kgUI = kgUI.mobile.init;
 $(function () {
     $(document).kgUI();
     $(document).jsSelectCtrl();
+    $(document).trigger('setTabLayout');
 });
