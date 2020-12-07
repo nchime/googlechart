@@ -1,0 +1,232 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+<title>알고까페</title>                                                                <!-- 문서 제목(변경 필요) -->
+<!-- 메타태그 -->
+<meta name="robots" content="all" />
+<meta name="author" content="모바일알고" />
+<meta name="keyword" content="모바일알고,모바일 간편제작,예약,상담,온라인마케팅" />
+<meta name="description" content="모바일알고 페이지로 쉬운 모바일 페이지를 만들어보세요. 온라인 마케팅 어렵지 않아요. 모바일알고 페이지와 함께" />
+<!-- openGraph기반의 sns들을 위한 정보 입력 -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="알고까페" />                                             <!-- sns 공유시 들어갈 페이지 제목 -->
+<meta property="og:url" content="http://localhost/01055232474" />                          <!-- sns 공유시 들어갈 URL -->
+<meta property="og:description" content="알고까페" />                                       <!-- 공유 시 출력 될 페이지 설명 -->
+<meta name="format-detection" content="telephone=no" />
+<meta property="og:image" content="http://localhost/images/1512909665615-448.jpg" />                                             <!-- 공유 시 출력 될 이미지(1200x630 / 600x315) -->
+
+<link rel="stylesheet" type="text/css" href="./css/slick.css">                                <!-- slick.js css -->
+<link rel="stylesheet" type="text/css" href="./css/jquery.fullpage.css">                      <!-- fullpage.js css -->
+<link rel="stylesheet" type="text/css" href="./css/page.css">                                 <!-- page style -->
+<link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
+<script src="//ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.3.min.js"></script>  <!-- jquery 1.x(정식 서비스시 경로 변경 필요) -->
+<script src="//developers.kakao.com/sdk//js/kakao.min.js"></script>
+<script src="./js/jquery.fullpage.js"></script>                                       <!-- fullpage.js -->
+<script src="./js/slick.min.js"></script>                                             <!-- slick.js -->
+<script src="./js/clipboard.min.js"></script>                                         <!-- clipboard.js -->
+
+
+<script src="./js/page.js"></script>                                                  <!-- page.js(본 페이지의 js) -->
+<!-- <script src="./js/pageAction.js"></script> -->                                             <!-- pageAction.js(본 페이지의 Action js) -->
+
+<script src="./js/jquery.fancybox.min.js"></script> 
+ 
+</head>
+<body>
+    <div class="landscape-cover HeightAuto" id="landscape">
+        <div class="landscape-cover-inner">
+          <div class="icon"></div>
+          <p>해당 사이트는 세로 모드에 최적화되어 있습니다</p>
+        </div>
+     </div>
+<div id="fWrap" data-status="loading" data-startpos="1">
+  <div id="header">
+    <div class="wrap_header">
+      <h1>알고까페</h1>
+    </div>
+  </div>
+  <!-- #header -->
+  <div id="mainMenu">
+    <div class="bg"></div>
+    <div class="wrap_menu">
+      <nav>
+        <ul>
+          <li class="toggle">
+            <button class="btn_comm btn_toggle" type="button"><img src="./images/icon/icon-menu.png" alt="메뉴"></button>
+          </li>
+          <li class="share">
+            <button class="btn_comm btn_share" type="button">
+              <img src="./images/icon/icon-share.png" alt="공유">
+            </button>
+            <div class="sub">
+              <div>
+                <button class="btn_comm btn_band" type="button" onclick="sendSns('band', 'http://localhost/01055232474', '알고까페')"><img src="./images/icon/icon-band.png" alt="밴드로 공유하기"></button>
+                <button class="btn_comm btn_kakao" type="button" onclick="sendKakaoTalk('http://localhost/01055232474', '알고까페', 'http://localhost./images/img-1.jpg')"><img src="./images/icon/icon-kakao.png" alt="카카오 톡으로 공유하기"></button>
+                <button class="btn_comm btn_twitter" type="button" onClick="location.href='https://twitter.com/intent/tweet?text=알고까페&url=http://localhost/01055232474'"><img src="./images/icon/icon-twitter.png" alt="트위터로 공유하기"></button>
+                <button class="btn_comm btn_facebook" type="button" onClick="location.href='http://www.facebook.com/sharer/sharer.php?u=http://localhost/01055232474'"><img src="./images/icon/icon-facebook.png" alt="페이스북으로 공유하기"></button>
+                <button class="btn_comm btn_url" type="button"  data-clipboard-text="http://localhost/01055232474" data-clipboard-msg="url이 복사 되었습니다! 붙여 넣기로 공유해주세요" ><img src="./images/icon/icon-url.png" alt="url로 공유하기"></button>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <!-- // #mainMenu -->
+  <div class="loading">
+    <div class="icon"></div>
+  </div>
+  <!-- // .loading(미사용 시 제거) -->
+<div class="cursor">
+    <span class="top"></span>
+    <span class="bottom"></span>
+  </div>
+
+  <div id="container">
+
+  <div class="section" id="slide1" >
+    <ul class="wrap_images">
+      <li id="scIdx105539"  class="type-normal" effect-type="" >
+        <div class="bg-dim"></div>                  
+          <img class="bg-img" src="https://slate.textile.io/ipfs/bafybeigcslkw4prsoetw6wvxnrm65qcu3k2aisfjym4pfhxjns2un3ggxa">  
+          <div class="content">
+            <div class="intro">
+              <div class="wrap_tit">                            
+                <h2 class="tit">알고까페</h2>
+                <div class="sub_msg">
+                  <p>라떼 한잔이 생각날 때..</p>
+                </div>
+              </div>
+              <div class="greeting_msg">
+                알고까페에 오신 것을 환영합니다
+              </div>
+            </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <div class="section" id="slide2" >
+      <ul class="wrap_images">
+        <li  class="type-normal" effect-type="kenBurn" >
+              <img src="https://slate.textile.io/ipfs/bafkreigjmzozlru6bcndjyassljkxvebrojb2xgab2vroaprqckjk67z6q">  
+              <div class="content">
+                  <div class="shop-detail">
+                      <div class="shop-detail-inner">
+                          <div class="shop-detail-inner-title">알고까페 상세소개</div>
+                          <div class="sub_msg">
+                              알고카페는 업계 최고의 경쟁력으로
+                              커피 시장의 트랜드를 주도합니다.
+                              알고카페는 장기간 꾸준히 쌓아온
+                              검증된 경력과 운영 노하우를 바탕으로
+                              성장하고 발전해왔습니다.<br/>                    
+                          </div>
+                      </div>
+                  </div>                      
+              </div>      
+        </li>
+        <li    class="type-normal" effect-type="kenBurn" >
+          <img src="https://slate.textile.io/ipfs/bafkreigzbjlv5ounffbmeis4opajwh7wd42sofjibsmhyn6dpn2e53cxuu">  
+            <div class="content"> 
+              <div class="body_msg">
+                  알고카페는 업계 최고의 경쟁력으로
+                  커피 시장의 트랜드를 주도합니다.
+                  알고카페는 장기간 꾸준히 쌓아온
+                  검증된 경력과 운영 노하우를 바탕으로
+                  성장하고 발전해왔습니다.<br/>
+                  프랜차이즈 운영에 가장 필수적인
+                  메뉴 개발, 물류시스템, 로스팅팩토리,
+                  커피 아카데미 시스템을 보유하여
+                  업계 최고의 경쟁력으로 커피시장의
+                  트랜드를 주도하겠습니다<br/>                
+                  알고카페는 품질과 혁신에 최선을 다하여 더카페를 찾는 모든 고객에게 최고의 커피 경험을 제공함으로
+                  누구나 마음껏 커피를 즐길 수 있는 커피 대중화의 선도적 역할을 수행하겠습니다.<br/>
+                </div>                  
+              </div>      
+        </li>
+        <li  class="type-normal" effect-type="kenBurn" >
+          <img src="https://slate.textile.io/ipfs/bafkreiatdepdkh4kospewvtjbpemwjy337fhuv6b3hyfwtrh6hf7ua5of4">  
+            <div class="content"> 
+              </div>      
+        </li>
+        <li  class="type-normal" effect-type="kenBurn" >
+          <img src="https://slate.textile.io/ipfs/bafybeicl4rn72rw3tztsvxyxt5kw3wrwomflathg2yakbmtsxb6cw227ou">  
+            <div class="content"> 
+              </div>      
+        </li>
+      </ul>
+  </div>    
+
+                
+  <div class="section" id="slide4" >
+    <ul class="wrap_images">
+      <li class="type-normal"  media-type="video">
+        <button class="btn_comm btn_play" type="button"></button>
+        <img class="thumb" src="https://slate.textile.io/ipfs/bafybeie3rpjtthh3kh52fw6mmotwxzjeqnrmgik567b6iwtur2sz6d6u2m">
+            <video preload="metadata" loop="loop" playsinline>
+                <source src="https://slate.textile.io/ipfs/bafybeihgypwo3azmsgbdlxvauz4wd3p5aqxvmj4she522k5d7j6mcwggwe" type="video/mp4">
+            </video> 
+      </li>      
+      <li  class="type-normal" effect-type="kenBurn" >
+        <img src="https://slate.textile.io/ipfs/bafkreiddcfproucn6extfrlkutqipvthi52itsz2jwkzphz6tv75pxfk5m">  
+          <div class="content"> 
+            </div>      
+      </li>
+      <li  class="type-normal" effect-type="kenBurn" >
+        <img src="https://slate.textile.io/ipfs/bafkreiajdyckarp66fcsx6wazyrp75zuyvxzssmihkvf7kevtk4q7ecgkq">  
+          <div class="content"> 
+            </div>      
+      </li>
+      <li  class="type-normal" effect-type="kenBurn" >
+        <img src="https://slate.textile.io/ipfs/bafkreie6gg547u7cglwrf67ktby5k3ppsrlakyt6pvejikm2o7esmcrx3y">  
+          <div class="content"> 
+            </div>      
+      </li>
+      <li  class="type-normal" effect-type="kenBurn" >
+        <img src="https://slate.textile.io/ipfs/bafkreiey5tpuco3yjvmacyhectn4cjzrzn4lubstsf6rz3id2ozrv5odyq">  
+          <div class="content"> 
+            </div>      
+      </li>
+    </ul>
+  </div>
+
+      
+  <div class="section" id="slide5" >
+    <ul class="wrap_images">
+                
+      <li  class="type-normal" effect-type="kenBurn" >
+        <img src="https://slate.textile.io/ipfs/bafkreiaklkqhv4vvkghrgliqnr4jzej6mtliobqw5jnqv3y3nqmzyr3jtq">  
+          <div class="content">
+            <div class="body_msg">
+              알고카페는 업계 최고의 경쟁력으로
+              커피 시장의 트랜드를 주도합니다.
+              알고카페는 장기간 꾸준히 쌓아온
+              검증된 경력과 운영 노하우를 바탕으로
+              성장하고 발전해왔습니다.<br/>
+              프랜차이즈 운영에 가장 필수적인
+              메뉴 개발, 물류시스템, 로스팅팩토리,
+              커피 아카데미 시스템을 보유하여
+              업계 최고의 경쟁력으로 커피시장의
+              트랜드를 주도하겠습니다<br/>                
+              알고카페는 품질과 혁신에 최선을 다하여 더카페를 찾는 모든 고객에게 최고의 커피 경험을 제공함으로
+              누구나 마음껏 커피를 즐길 수 있는 커피 대중화의 선도적 역할을 수행하겠습니다.<br/>
+            </div>
+          </div>      
+      </li>
+      <li  class="type-normal" effect-type="kenBurn" >
+        <img src="https://slate.textile.io/ipfs/bafkreiewqermaql76mso42hky2bm7375bgz4n2bc3bvbbskzuex2cy652a">  
+          <div class="content"> 
+          </div>      
+      </li>
+      <li  class="type-normal" effect-type="kenBurn" >
+        <img src="https://slate.textile.io/ipfs/bafkreih7axzewzgd23fbonoeqzq6e732y3nnqj72276234cjx6nu77q4j4">  
+          <div class="content"> 
+          </div>      
+      </li>
+    </ul>
+  </div>
+</div>
+</body>
+</html>
